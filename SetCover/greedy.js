@@ -6,7 +6,7 @@
 "use strict";
 
 /*
-**Cheap Max Coverage
+**Cheap Max Coverage(CMC)
 **From: Size-Constrained Weighted Set Cover
 **/
 
@@ -29,17 +29,29 @@ var MBen = function(s){
 }
 
 /*
+**Get all possible sets cost
+**Input: all possible sets with cost
+**Ouput: the sum of cost
+**/
+var getSumCost = function(sets){
+
+}
+
+/*
 **Main： get solution sets
 **Input: T(collection of elements)
          C(set collection of T)
          k(maximum solution size)
          cov(fraction representing desired coverage)
          b(the cost budget increase)
+  Output: The B with the min cost
 **
 */
 var CMC = function(T, C, k, cov, b){
 	var B = findCheapCost(C);
-	while(B >= C.cost){
-		
+    const maxCost = getSumCost(C);
+    var S = []; //empty set
+	while(B < maxCost){
+        
 	}
 }

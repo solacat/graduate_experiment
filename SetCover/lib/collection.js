@@ -1,12 +1,14 @@
 "use strict";
 
+const _ = require('lodash');
+const binomial = require('./binomial');
+
 /*
 **Collection operation function
 **/
 
 //get subset of k-marginal table
 var subset = [];
-
 function combination_s(arr){
     var substr_arr = [];
     for(var i = 0; i < arr.length; i++){
@@ -30,7 +32,32 @@ exports.getSubsetOfMarginTable = function(KMar){
 	var collection = KMar.split('');
 	var size = collection.length;
 	//push self
+    subset = [];
 	combination_s(collection);
 	return subset;
 }
 //console.log(getSubsetOfMarginTable('abc'));
+
+//get partial sum of binomial coefficient
+exports.getPartialSum = function(n, k){
+    var sum = 0;
+    for(var i = 1; i<=k;i++){
+        sum += binomial.Binomial(i,n);
+    }
+    return sum;
+}
+
+//union
+exports.U = function(collections){
+    var union = [];
+    collections.map(collection=>{
+        union = _.union(union, collection);
+    })
+    return union;
+}
+
+//different set
+exports.DSet = function(u1, u2){
+    const u3 = _.intersection(u1, u2);
+	return _.xor(u2, u3);
+}

@@ -1,30 +1,6 @@
 "use strict";
 
-/*
-**Get factorial of N
-**input: N
-**output: N!
-**/
-var factorial = function(N){
-	var _f = 1;
-	for(var i = 1; i <= N; i++){
-		_f = _f * i;
-	}
-	return _f;
-}
-
-/*
-**Get Binomial coefficient of (m,n);
-**input: m,n
-**output: C(n,m) where n<=m;
-*/
-var Binomial = function(n,m){
-	if(n < m/2){
-		return factorial(m)/(factorial(n)*factorial(m-n));
-	}else{
-		return Binomial(m-n, m);
-	}
-}
+const Binomial = require('./lib/collection');
 
 /*
 **Find the dimentional of marginal table
