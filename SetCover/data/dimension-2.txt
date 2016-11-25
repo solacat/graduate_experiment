@@ -1,0 +1,403 @@
+Dimension: 1
+1-Marginal: 1, coverage: 100%
+
+Dimension: 2
+1-Marginal: 2, coverage: 66.66666666666666%
+2-Marginal: 1, coverage: 100%
+
+Dimension: 3
+1-Marginal: 3, coverage: 42.857142857142854%
+2-Marginal: 3, coverage: 85.71428571428571%
+3-Marginal: 1, coverage: 100%
+
+Dimension: 4
+1-Marginal: 4, coverage: 26.666666666666668%
+2-Marginal: 6, coverage: 66.66666666666666%
+3-Marginal: 4, coverage: 93.33333333333333%
+4-Marginal: 1, coverage: 100%
+
+Dimension: 5
+1-Marginal: 5, coverage: 16.129032258064516%
+2-Marginal: 10, coverage: 48.38709677419355%
+3-Marginal: 10, coverage: 80.64516129032258%
+4-Marginal: 5, coverage: 96.7741935483871%
+5-Marginal: 1, coverage: 100%
+
+Dimension: 6
+1-Marginal: 6, coverage: 9.523809523809524%
+2-Marginal: 15, coverage: 33.33333333333333%
+3-Marginal: 20, coverage: 65.07936507936508%
+4-Marginal: 15, coverage: 88.88888888888889%
+5-Marginal: 6, coverage: 98.4126984126984%
+6-Marginal: 1, coverage: 100%
+
+Dimension: 7
+1-Marginal: 7, coverage: 5.511811023622047%
+2-Marginal: 21, coverage: 22.04724409448819%
+3-Marginal: 35, coverage: 49.60629921259843%
+4-Marginal: 35, coverage: 77.16535433070865%
+5-Marginal: 21, coverage: 93.7007874015748%
+6-Marginal: 7, coverage: 99.21259842519686%
+7-Marginal: 1, coverage: 100%
+
+Dimension: 8
+1-Marginal: 8, coverage: 3.1372549019607843%
+2-Marginal: 28, coverage: 14.117647058823529%
+3-Marginal: 56, coverage: 36.07843137254902%
+4-Marginal: 70, coverage: 63.52941176470588%
+5-Marginal: 56, coverage: 85.49019607843137%
+6-Marginal: 28, coverage: 96.47058823529412%
+7-Marginal: 8, coverage: 99.6078431372549%
+8-Marginal: 1, coverage: 100%
+
+Dimension: 9
+1-Marginal: 9, coverage: 1.761252446183953%
+2-Marginal: 36, coverage: 8.806262230919765%
+3-Marginal: 84, coverage: 25.244618395303327%
+4-Marginal: 126, coverage: 49.902152641878665%
+5-Marginal: 126, coverage: 74.55968688845401%
+6-Marginal: 84, coverage: 90.99804305283757%
+7-Marginal: 36, coverage: 98.04305283757338%
+8-Marginal: 9, coverage: 99.80430528375733%
+9-Marginal: 1, coverage: 100%
+
+Dimension: 10
+1-Marginal: 10, coverage: 0.9775171065493646%
+2-Marginal: 45, coverage: 5.376344086021505%
+3-Marginal: 120, coverage: 17.10654936461388%
+4-Marginal: 210, coverage: 37.634408602150536%
+5-Marginal: 252, coverage: 62.267839687194524%
+6-Marginal: 210, coverage: 82.79569892473118%
+7-Marginal: 120, coverage: 94.52590420332356%
+8-Marginal: 45, coverage: 98.9247311827957%
+9-Marginal: 10, coverage: 99.90224828934507%
+10-Marginal: 1, coverage: 100%
+
+Dimension: 11
+1-Marginal: 11, coverage: 0.537371763556424%
+2-Marginal: 55, coverage: 3.224230581338544%
+3-Marginal: 165, coverage: 11.284807034684905%
+4-Marginal: 330, coverage: 27.405959941377628%
+5-Marginal: 462, coverage: 49.97557401074744%
+6-Marginal: 462, coverage: 72.54518808011724%
+7-Marginal: 330, coverage: 88.66634098680997%
+8-Marginal: 165, coverage: 96.72691744015633%
+9-Marginal: 55, coverage: 99.41377625793845%
+10-Marginal: 11, coverage: 99.95114802149487%
+11-Marginal: 1, coverage: 100%
+
+Dimension: 12
+1-Marginal: 12, coverage: 0.29304029304029305%
+2-Marginal: 66, coverage: 1.9047619047619049%
+3-Marginal: 220, coverage: 7.277167277167278%
+4-Marginal: 495, coverage: 19.365079365079367%
+5-Marginal: 792, coverage: 38.70573870573871%
+6-Marginal: 924, coverage: 61.26984126984127%
+7-Marginal: 792, coverage: 80.61050061050061%
+8-Marginal: 495, coverage: 92.6984126984127%
+9-Marginal: 220, coverage: 98.07081807081806%
+10-Marginal: 66, coverage: 99.68253968253968%
+11-Marginal: 12, coverage: 99.97557997557998%
+12-Marginal: 1, coverage: 100%
+
+Dimension: 13
+1-Marginal: 13, coverage: 0.15871078012452694%
+2-Marginal: 78, coverage: 1.1109754608716884%
+3-Marginal: 286, coverage: 4.6026126236112805%
+4-Marginal: 715, coverage: 13.331705530460262%
+5-Marginal: 1287, coverage: 29.044072762788424%
+6-Marginal: 1716, coverage: 49.99389573922598%
+7-Marginal: 1716, coverage: 70.94371871566352%
+8-Marginal: 1287, coverage: 86.6560859479917%
+9-Marginal: 715, coverage: 95.38517885484067%
+10-Marginal: 286, coverage: 98.87681601758027%
+11-Marginal: 78, coverage: 99.82908069832743%
+12-Marginal: 13, coverage: 99.98779147845195%
+13-Marginal: 1, coverage: 100%
+
+Dimension: 14
+1-Marginal: 14, coverage: 0.08545443447476042%
+2-Marginal: 91, coverage: 0.6409082585607031%
+3-Marginal: 364, coverage: 2.8627235549044743%
+4-Marginal: 1001, coverage: 8.972715619849843%
+5-Marginal: 2002, coverage: 21.192699749740584%
+6-Marginal: 3003, coverage: 39.5226759445767%
+7-Marginal: 3432, coverage: 60.47122016724653%
+8-Marginal: 3003, coverage: 78.80119636208265%
+9-Marginal: 2002, coverage: 91.02118049197338%
+10-Marginal: 1001, coverage: 97.13117255691876%
+11-Marginal: 364, coverage: 99.35298785326253%
+12-Marginal: 91, coverage: 99.90844167734846%
+13-Marginal: 14, coverage: 99.99389611182323%
+14-Marginal: 1, coverage: 100%
+
+Dimension: 15
+1-Marginal: 15, coverage: 0.04577776421399579%
+2-Marginal: 105, coverage: 0.36622211371196634%
+3-Marginal: 455, coverage: 1.7548142948698386%
+4-Marginal: 1365, coverage: 5.920590838343456%
+5-Marginal: 3003, coverage: 15.085299233985412%
+6-Marginal: 5005, coverage: 30.359813226722004%
+7-Marginal: 6435, coverage: 49.9984740745262%
+8-Marginal: 6435, coverage: 69.63713492233039%
+9-Marginal: 5005, coverage: 84.91164891506699%
+10-Marginal: 3003, coverage: 94.07635731070894%
+11-Marginal: 1365, coverage: 98.24213385418255%
+12-Marginal: 455, coverage: 99.63072603534043%
+13-Marginal: 105, coverage: 99.9511703848384%
+14-Marginal: 15, coverage: 99.9969481490524%
+15-Marginal: 1, coverage: 100%
+
+Dimension: 16
+1-Marginal: 16, coverage: 0.024414435034714275%
+2-Marginal: 120, coverage: 0.20752269779507135%
+3-Marginal: 560, coverage: 1.062027924010071%
+4-Marginal: 1820, coverage: 3.83916990920882%
+5-Marginal: 4368, coverage: 10.504310673685817%
+6-Marginal: 8008, coverage: 22.723735408560312%
+7-Marginal: 11440, coverage: 40.18005645838102%
+8-Marginal: 12870, coverage: 59.81841763942931%
+9-Marginal: 11440, coverage: 77.27473868925003%
+10-Marginal: 8008, coverage: 89.49416342412452%
+11-Marginal: 4368, coverage: 96.15930418860151%
+12-Marginal: 1820, coverage: 98.93644617380026%
+13-Marginal: 560, coverage: 99.79095140001526%
+14-Marginal: 120, coverage: 99.97405966277562%
+15-Marginal: 16, coverage: 99.99847409781033%
+16-Marginal: 1, coverage: 100%
+
+Dimension: 17
+1-Marginal: 17, coverage: 0.01297006965690351%
+2-Marginal: 136, coverage: 0.11673062691213158%
+3-Marginal: 680, coverage: 0.635533413188272%
+4-Marginal: 2380, coverage: 2.4513431651547632%
+5-Marginal: 6188, coverage: 7.172448520267641%
+6-Marginal: 12376, coverage: 16.614659230493398%
+7-Marginal: 19448, coverage: 31.452418917991015%
+8-Marginal: 24310, coverage: 49.99961852736303%
+9-Marginal: 24310, coverage: 68.54681813673506%
+10-Marginal: 19448, coverage: 83.38457782423266%
+11-Marginal: 12376, coverage: 92.82678853445843%
+12-Marginal: 6188, coverage: 97.5478938895713%
+13-Marginal: 2380, coverage: 99.3637036415378%
+14-Marginal: 680, coverage: 99.88250642781394%
+15-Marginal: 136, coverage: 99.98626698506916%
+16-Marginal: 17, coverage: 99.99923705472607%
+17-Marginal: 1, coverage: 100%
+
+Dimension: 18
+1-Marginal: 18, coverage: 0.006866481271672331%
+2-Marginal: 153, coverage: 0.06523157208088715%
+3-Marginal: 816, coverage: 0.3765120563966995%
+4-Marginal: 3060, coverage: 1.5438138725809958%
+5-Marginal: 8568, coverage: 4.812258957897026%
+6-Marginal: 18564, coverage: 11.893889976081756%
+7-Marginal: 31824, coverage: 24.033828864398437%
+8-Marginal: 43758, coverage: 40.726244835833874%
+9-Marginal: 48620, coverage: 59.273373692984364%
+10-Marginal: 43758, coverage: 75.9657896644198%
+11-Marginal: 31824, coverage: 88.10572855273648%
+12-Marginal: 18564, coverage: 95.18735957092122%
+13-Marginal: 8568, coverage: 98.45580465623725%
+14-Marginal: 3060, coverage: 99.62310647242154%
+15-Marginal: 816, coverage: 99.93438695673736%
+16-Marginal: 153, coverage: 99.99275204754656%
+17-Marginal: 18, coverage: 99.99961852881823%
+18-Marginal: 1, coverage: 100%
+
+Dimension: 19
+1-Marginal: 19, coverage: 0.0036239693145166674%
+2-Marginal: 171, coverage: 0.036239693145166674%
+3-Marginal: 969, coverage: 0.2210621281855167%
+4-Marginal: 3876, coverage: 0.9603518683469169%
+5-Marginal: 11628, coverage: 3.1782210888311173%
+6-Marginal: 27132, coverage: 8.35324926996092%
+7-Marginal: 50388, coverage: 17.96401589205912%
+8-Marginal: 75582, coverage: 32.380165825206426%
+9-Marginal: 92378, coverage: 49.99990463238646%
+10-Marginal: 92378, coverage: 67.6196434395665%
+11-Marginal: 75582, coverage: 82.0357933727138%
+12-Marginal: 50388, coverage: 91.64655999481201%
+13-Marginal: 27132, coverage: 96.8215881759418%
+14-Marginal: 11628, coverage: 99.039457396426%
+15-Marginal: 3876, coverage: 99.7787471365874%
+16-Marginal: 969, coverage: 99.96356957162776%
+17-Marginal: 171, coverage: 99.9961852954584%
+18-Marginal: 19, coverage: 99.99980926477292%
+19-Marginal: 1, coverage: 100%
+
+Dimension: 20
+1-Marginal: 20, coverage: 0.0019073504518036383%
+2-Marginal: 190, coverage: 0.020027179743938202%
+3-Marginal: 1140, coverage: 0.1287461554967456%
+4-Marginal: 4845, coverage: 0.590801802446177%
+5-Marginal: 15504, coverage: 2.0693798726843573%
+6-Marginal: 38760, coverage: 5.765825048279808%
+7-Marginal: 77520, coverage: 13.158715399470712%
+8-Marginal: 125970, coverage: 25.172162220155926%
+9-Marginal: 167960, coverage: 41.190091314402885%
+10-Marginal: 184756, coverage: 58.80981331807453%
+11-Marginal: 167960, coverage: 74.82774241232148%
+12-Marginal: 125970, coverage: 86.8411892330067%
+13-Marginal: 77520, coverage: 94.2340795841976%
+14-Marginal: 38760, coverage: 97.93052475979304%
+15-Marginal: 15504, coverage: 99.40910283003123%
+16-Marginal: 4845, coverage: 99.87115847698065%
+17-Marginal: 1140, coverage: 99.97987745273346%
+18-Marginal: 190, coverage: 99.99799728202561%
+19-Marginal: 20, coverage: 99.99990463247741%
+20-Marginal: 1, coverage: 100%
+
+Dimension: 21
+1-Marginal: 21, coverage: 0.0010013585097115086%
+2-Marginal: 210, coverage: 0.011014943606826595%
+3-Marginal: 1330, coverage: 0.07443431588855548%
+4-Marginal: 5985, coverage: 0.35982149115633544%
+5-Marginal: 20349, coverage: 1.3301378870667873%
+6-Marginal: 54264, coverage: 3.9176482761613256%
+7-Marginal: 116280, coverage: 9.462313395649621%
+8-Marginal: 203490, coverage: 19.16547735475414%
+9-Marginal: 293930, coverage: 33.181158629016224%
+10-Marginal: 352716, coverage: 49.99997615813072%
+11-Marginal: 352716, coverage: 66.81879368724522%
+12-Marginal: 293930, coverage: 80.8344749615073%
+13-Marginal: 203490, coverage: 90.53763892061181%
+14-Marginal: 116280, coverage: 96.08230404010013%
+15-Marginal: 54264, coverage: 98.66981442919466%
+16-Marginal: 20349, coverage: 99.64013082510512%
+17-Marginal: 5985, coverage: 99.92551800037288%
+18-Marginal: 1330, coverage: 99.98893737265462%
+19-Marginal: 210, coverage: 99.99895095775173%
+20-Marginal: 21, coverage: 99.99995231626144%
+21-Marginal: 1, coverage: 100%
+
+Dimension: 22
+1-Marginal: 22, coverage: 0.0005245209990789888%
+2-Marginal: 231, coverage: 0.006031991489408371%
+3-Marginal: 1540, coverage: 0.04274846142493759%
+4-Marginal: 7315, coverage: 0.21715169361870137%
+5-Marginal: 26334, coverage: 0.845003329516251%
+6-Marginal: 74613, coverage: 2.6239162978926416%
+7-Marginal: 170544, coverage: 6.690003082752963%
+8-Marginal: 319770, coverage: 14.313915804366065%
+9-Marginal: 497420, coverage: 26.173335593542003%
+10-Marginal: 646646, coverage: 41.59058131947072%
+11-Marginal: 705432, coverage: 58.40939483866568%
+12-Marginal: 646646, coverage: 73.8266405645944%
+13-Marginal: 497420, coverage: 85.68606035377034%
+14-Marginal: 319770, coverage: 93.30997307538344%
+15-Marginal: 170544, coverage: 97.37605986024377%
+16-Marginal: 74613, coverage: 99.15497282862016%
+17-Marginal: 26334, coverage: 99.7828244645177%
+18-Marginal: 7315, coverage: 99.95722769671147%
+19-Marginal: 1540, coverage: 99.993944166647%
+20-Marginal: 231, coverage: 99.99945163713733%
+21-Marginal: 22, coverage: 99.9999761581364%
+22-Marginal: 1, coverage: 100%
+
+Dimension: 23
+1-Marginal: 23, coverage: 0.0002741813986517666%
+2-Marginal: 253.00000000000003, coverage: 0.0032901767838211995%
+3-Marginal: 1771, coverage: 0.02440214448000723%
+4-Marginal: 8855, coverage: 0.12996198296093736%
+5-Marginal: 33649, coverage: 0.5310893691884719%
+6-Marginal: 100947, coverage: 1.7344715278710756%
+7-Marginal: 245157.00000000003, coverage: 4.6569710561002555%
+8-Marginal: 490314.00000000006, coverage: 10.501970112558617%
+9-Marginal: 817190, coverage: 20.243635206655885%
+10-Marginal: 1144066, coverage: 33.88196633839206%
+11-Marginal: 1352078, coverage: 49.99999403953481%
+12-Marginal: 1352078, coverage: 66.11802174067756%
+13-Marginal: 1144066, coverage: 79.75635287241374%
+14-Marginal: 817190, coverage: 89.49801796651101%
+15-Marginal: 490314.00000000006, coverage: 95.34301702296936%
+16-Marginal: 245157.00000000003, coverage: 98.26551655119854%
+17-Marginal: 100947, coverage: 99.46889870988115%
+18-Marginal: 33649, coverage: 99.87002609610869%
+19-Marginal: 8855, coverage: 99.97558593458962%
+20-Marginal: 1771, coverage: 99.9966979022858%
+21-Marginal: 253.00000000000003, coverage: 99.99971389767097%
+22-Marginal: 23, coverage: 99.99998807906962%
+23-Marginal: 1, coverage: 100%
+
+Dimension: 24
+1-Marginal: 23.999999999999996, coverage: 0.00014305115598745082%
+2-Marginal: 276, coverage: 0.0017881394498431356%
+3-Marginal: 2024, coverage: 0.013852120271451489%
+4-Marginal: 10626, coverage: 0.07718801958489535%
+5-Marginal: 42504, coverage: 0.33053161683867077%
+6-Marginal: 134596, coverage: 1.1327863414756263%
+7-Marginal: 346104, coverage: 3.1957270619706546%
+8-Marginal: 735471, coverage: 7.57947609302259%
+9-Marginal: 1307504, coverage: 15.372807703781588%
+10-Marginal: 1961256, coverage: 27.062805119920082%
+11-Marginal: 2496144, coverage: 41.940983649550894%
+12-Marginal: 2704156, coverage: 58.05901038998428%
+13-Marginal: 2496144, coverage: 72.93718891961508%
+14-Marginal: 1961256, coverage: 84.62718633575358%
+15-Marginal: 1307504, coverage: 92.42051794651258%
+16-Marginal: 735471, coverage: 96.80426697756451%
+17-Marginal: 346104, coverage: 98.86720769805954%
+18-Marginal: 134596, coverage: 99.6694624226965%
+19-Marginal: 42504, coverage: 99.92280601995027%
+20-Marginal: 10626, coverage: 99.98614191926372%
+21-Marginal: 2024, coverage: 99.99820590008532%
+22-Marginal: 276, coverage: 99.99985098837918%
+23-Marginal: 23.999999999999996, coverage: 99.99999403953517%
+24-Marginal: 1, coverage: 100%
+
+Dimension: 25
+1-Marginal: 25, coverage: 0.0000745058081896844%
+2-Marginal: 300, coverage: 0.0009685755064658972%
+3-Marginal: 2300, coverage: 0.007823109859916862%
+4-Marginal: 12650, coverage: 0.04552304880389716%
+5-Marginal: 53130, coverage: 0.20386279236861443%
+6-Marginal: 177100, coverage: 0.7316619375843386%
+7-Marginal: 480700, coverage: 2.1642596174555906%
+8-Marginal: 1081575, coverage: 5.387604397165906%
+9-Marginal: 2042975, coverage: 11.476144536618724%
+10-Marginal: 3268760, coverage: 21.217808759743235%
+11-Marginal: 4457400, coverage: 34.50189633673121%
+12-Marginal: 5200300, coverage: 49.99999850988384%
+13-Marginal: 5200300, coverage: 65.49810068303647%
+14-Marginal: 4457400, coverage: 78.78218826002443%
+15-Marginal: 3268760, coverage: 88.52385248314894%
+16-Marginal: 2042975, coverage: 94.61239262260177%
+17-Marginal: 1081575, coverage: 97.83573740231208%
+18-Marginal: 480700, coverage: 99.26833508218334%
+19-Marginal: 177100, coverage: 99.79613422739905%
+20-Marginal: 53130, coverage: 99.95447397096378%
+21-Marginal: 12650, coverage: 99.99217390990776%
+22-Marginal: 2300, coverage: 99.9990284442612%
+23-Marginal: 300, coverage: 99.99992251395949%
+24-Marginal: 25, coverage: 99.99999701976768%
+25-Marginal: 1, coverage: 100%
+
+Dimension: 26
+1-Marginal: 26, coverage: 0.00003874301968131989%
+2-Marginal: 325, coverage: 0.0005230307656978185%
+3-Marginal: 2600, coverage: 0.004397332733829807%
+4-Marginal: 14950, coverage: 0.026674569050588744%
+5-Marginal: 65780, coverage: 0.12469440884432806%
+6-Marginal: 230230, coverage: 0.46776384812241567%
+7-Marginal: 657800, coverage: 1.447962246059809%
+8-Marginal: 1562275, coverage: 3.7759334411611176%
+9-Marginal: 3124550, coverage: 8.431875831363735%
+10-Marginal: 5311735, coverage: 16.346977894708186%
+11-Marginal: 7726160, coverage: 27.8598536232092%
+12-Marginal: 9657700, coverage: 42.25094828383548%
+13-Marginal: 10400600, coverage: 57.74905022604838%
+14-Marginal: 9657700, coverage: 72.14014488667465%
+15-Marginal: 7726160, coverage: 83.65302061517568%
+16-Marginal: 5311735, coverage: 91.56812267852013%
+17-Marginal: 3124550, coverage: 96.22406506872274%
+18-Marginal: 1562275, coverage: 98.55203626382405%
+19-Marginal: 657800, coverage: 99.53223466176144%
+20-Marginal: 230230, coverage: 99.87530410103953%
+21-Marginal: 65780, coverage: 99.97332394083327%
+22-Marginal: 14950, coverage: 99.99560117715004%
+23-Marginal: 2600, coverage: 99.99947547911816%
+24-Marginal: 325, coverage: 99.99995976686418%
+25-Marginal: 26, coverage: 99.99999850988385%
+26-Marginal: 1, coverage: 100%
+
