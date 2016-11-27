@@ -42,7 +42,8 @@ var getDecreaseCoverage = function(C, k, d){
 //use test collection C = (a,b,c,d,e,f) m = |C| = 5
 const C = 'abcdefghij';
 const k = 7;
-const numOfMarginal = binomial.Binomial(7, C.length);
+const numOfMarginal = binomial.Binomial(k, C.length);
 for(var i = 1; i <= numOfMarginal; i++){
-	getDecreaseCoverage(C,k,i);	
+	console.log(`decrease num:${i}`);
+	getDecreaseCoverage(C,k,i);
 }
