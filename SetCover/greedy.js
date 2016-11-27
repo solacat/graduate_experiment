@@ -206,7 +206,6 @@ function CMC(T, C, Cs, n, cov) {
     var S = []; //solution set
     var Ss = [];
     var MBen_s = getMBen(Cs);
-    //var rem = (1 - (1 / math.e)) * cov * T.length;
     const level = math.fix(math.log(n, 2));
     const divide_set = divideLevel(C, level, B);
     const sample_set = SampleSet(level, n);
@@ -221,6 +220,7 @@ function CMC(T, C, Cs, n, cov) {
                     //join to solution set
                     S.push(q.p);
                     Ss.push(q);
+                    console.log(q);
 
                     if(S.length >= n){
                         return S;
@@ -249,11 +249,11 @@ function CMC(T, C, Cs, n, cov) {
 }
 
 //test for CMC
-const string = 'abcdefghij';
+const string = 'abcdefghijkln';
 var T = collection.getSubsetOfMarginTable(string);
-const k = 7;
+const k = 9;
 var Cs = getMarginalTable_k(T, k);
-var n = 70;
+var n = 46;
 var C = DP.DP(Cs, n);
 var B = findCheapCost(C, n);
 const solution = CMC(T, C, Cs, n, 0.8);
