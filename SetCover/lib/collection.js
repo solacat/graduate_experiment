@@ -56,6 +56,15 @@ exports.U = function(collections){
     return union;
 }
 
+//union for string
+exports.Us = function(collections){
+    var union = [];
+    collections.map(collection=>{
+        union = _.union(union, collection.split(''));
+    })
+    return union;
+}
+
 //different set
 exports.DSet = function(u1, u2){
     const u3 = _.intersection(u1, u2);
