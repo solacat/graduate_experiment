@@ -10,6 +10,9 @@ const collection = require('./lib/collection');
 const _ = require('lodash');
 const DP = require('./lib/DP');
 
+var marginTables = require('./marginal/15-10.json');
+var set_S = {};//solution map
+
 /*
 **Cheap Max Coverage(CMC)
 **From: Size-Constrained Weighted Set Cover
@@ -32,17 +35,38 @@ var findCheapCost = function (sets, k) {
 }
 
 /*
+**Form set
+*/
+var updateSets = function(s){
+    var sets = marginTables[s.p];
+    sets.map(item=>{
+        if(set_S[item] == undefined){
+            set_S[item] = 1;
+        }
+    })
+}
+
+/*
 **Get the MBens(s), the elements covered by s and not covered by S
 **Input: set with cost
 **Ouput: MBen(s)
 **/
-var MBen = function (s, S) {
-    const collection_S = S.map(marginal=>{
-		return collection.getSubsetOfMarginTable(marginal);
-	});
-    const u_s = collection.getSubsetOfMarginTable(s);
-    const u_S = collection.U(collection_S);
-    const m_Ben = collection.DSet(u_S, u_s);
+var MBen = function (s) {
+
+    //console.time('getSubsetOfMarginTable');
+    // const collection_S = S.map(marginal=>{
+	// 	return collection.getSubsetOfMarginTable(marginal);
+	// });
+    // const u_s = collection.getSubsetOfMarginTable(s);
+    //console.timeEnd('getSubsetOfMarginTable');
+
+    //console.time('marginalTable');
+    const u_s = marginTables[s];
+    //console.timeEnd('marginalTable');
+
+    //console.time('Dset');
+    const m_Ben = collection.DSet(set_S, u_s);
+    //console.timeEnd('Dset');
     return m_Ben.length;
 }
 
@@ -53,7 +77,7 @@ var updateMBen = function (C, S, MBen_s) {
     C.map(item => {
         var _MBen = MBen(item, S);
         if (_MBen != 0) {
-            MBen_s[item] = MBen(item, S);
+            MBen_s[item] = _MBen;
         } else {
             delete MBen_s[item];
         }
@@ -215,12 +239,16 @@ function CMC(T, C, Cs, n, cov) {
         var sample = sample_set[i];
         for (var j = 0; j < sample; j++) {
             if(divide_set[i].length != 0){
+                //console.time("getMaxMBenInDivideSet");
                 var q = getMaxMBenInDivideSet(divide_set[i], MBen_s, sample);
+                //console.timeEnd("getMaxMBenInDivideSet");
                 if (q != false) {
                     //join to solution set
                     S.push(q.p);
                     Ss.push(q);
                     console.log(q);
+
+                    updateSets(q);
 
                     if(S.length >= n){
                         return S;
@@ -236,7 +264,9 @@ function CMC(T, C, Cs, n, cov) {
                     //delete from divide_set
                     divide_set[i].splice(q.index, 1);
 
+                    //console.time("updateMBen");
                     updateMBen(Cs, S, MBen_s);
+                    //console.timeEnd("updateMBen");
                 } else {
                     break;                   
                 }
@@ -249,11 +279,11 @@ function CMC(T, C, Cs, n, cov) {
 }
 
 //test for CMC
-const string = 'abcdefghijkln';
+const string = 'abcdefghijklnmo';
 var T = collection.getSubsetOfMarginTable(string);
-const k = 9;
+const k = 10;
 var Cs = getMarginalTable_k(T, k);
-var n = 46;
+var n = 143;
 var C = DP.DP(Cs, n);
 var B = findCheapCost(C, n);
 const solution = CMC(T, C, Cs, n, 0.8);

@@ -67,6 +67,11 @@ exports.Us = function(collections){
 
 //different set
 exports.DSet = function(u1, u2){
-    const u3 = _.intersection(u1, u2);
-	return _.xor(u2, u3);
+    var i = 0;
+    u2.map(item=>{
+        if(u1[item] == undefined){
+            i++;
+        }
+    })
+    return i;
 }
