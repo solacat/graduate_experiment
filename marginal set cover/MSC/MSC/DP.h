@@ -8,7 +8,10 @@ using namespace std;
 struct marginW{
 	string p;
 	double weight;
-}
+};
+
+//sign function
+int _sign(double x);
 
 //get laplace noise
 double getLaplace(double lambd);
