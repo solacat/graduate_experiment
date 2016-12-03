@@ -75,3 +75,5 @@ exports.DSet = function(u1, u2){
     })
     return i;
 }
+
+//u1{'a':1,'b':2};
