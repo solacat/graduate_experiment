@@ -7,15 +7,24 @@ const fs = require('fs');
 **generate k marginal table prepare
 */
 
-const string = 'abcdefghijkln';
+const string = 'abcde';
 var T = collection.getSubsetOfMarginTable(string);
 var target = [];
-T.map(item=>{
-    if(item.length == 9)
-        target.push(item);
-})
+// T.map(item=>{
+//     if(item.length == 9)
+//         target.push(item);
+// })
 var marginalTables = {};
-target.map(item=>{
-    marginalTables[item] = collection.getSubsetOfMarginTable(item);
+T.map(item=>{
+    //marginalTables[item] = collection.getSubsetOfMarginTable(item);
+    var len = item.length;
+    var tmp = collection.getSubsetOfMarginTable(item);
+    var tmp_margin = [];
+    tmp.map(_item=>{
+        if(_item.length == len || _item.length == len -1){
+            tmp_margin.push(_item);
+        }
+    })
+    marginalTables[item] = tmp_margin;
 })
-fs.writeFileSync('./13-9.json', JSON.stringify(marginalTables));
+fs.writeFileSync('./5-5.json', JSON.stringify(marginalTables));

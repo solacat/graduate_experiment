@@ -35,3 +35,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+/marginal set cover/MSC/MSC/Debug
+/marginal set cover/MSSM/MSSM/Debug
+/SetCover/marginal
+/koarash
