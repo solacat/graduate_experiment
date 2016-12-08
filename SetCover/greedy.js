@@ -6,6 +6,7 @@
 "use strict";
 
 const math = require('mathjs');
+const fs = require('fs');
 const collection = require('./lib/collection');
 const _ = require('lodash');
 const DP = require('./lib/DP');
@@ -280,10 +281,10 @@ function CMC(T, C, Cs, n, cov) {
 
 //test for CMC
 const string = 'abcdefghijklnmo';
-var T = collection.getSubsetOfMarginTable(string);
 const k = 10;
+var n = 258;
+var T = collection.getSubsetOfMarginTable(string);
 var Cs = getMarginalTable_k(T, k);
-var n = 143;
 var C = DP.DP(Cs, n);
 var B = findCheapCost(C, n);
 const solution = CMC(T, C, Cs, n, 0.8);
@@ -293,7 +294,7 @@ const collection_S = solution.map(marginal=>{
 const u_S = collection.U(collection_S);
 console.log(`solution marginal tables: ${solution}`);
 console.log(`coverage: ${u_S.length/T.length}`);
-
+//fs.writeFileSync('./data/15-9-solution.txt', solution.join());
 
 //test for divide function
 // const sets = [2, 4, 1, 10, 23, 13, 9, 10];
