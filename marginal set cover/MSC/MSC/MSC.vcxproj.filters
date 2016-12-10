@@ -24,18 +24,12 @@
     <ClCompile Include="collection.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DP.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binomial.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="collection.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="DP.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

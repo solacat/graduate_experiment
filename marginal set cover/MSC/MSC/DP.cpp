@@ -1,4 +1,3 @@
-#include <math.h>
 #include <time.h>
 #include <iostream>
 #include "DP.h";

@@ -1,5 +1,3 @@
-"use strict";
-
 /*
 **Get factorial of N
 **input: N

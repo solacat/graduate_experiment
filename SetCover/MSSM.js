@@ -3,7 +3,7 @@
 const _ = require('lodash');
 const fs = require('fs');
 const collection = require('./lib/collection');
-const margin10_10 = require('./marginal/10-10.json');
+const margin10_10 = require('./marginal/20-20.json');
 
 const string = 'abcdefghij';
 const marginTables = collection.getSubsetOfMarginTable(string);

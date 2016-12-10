@@ -3,7 +3,7 @@
 const collection = require('./lib/collection');
 const fs = require('fs');
 
-const string = 'abcdefghijkln';
+const string = 'abcdefghijklnmopqrstuwvxyz';
 var T = collection.getSubsetOfMarginTable(string);
-fs.writeFileSync('./data/13.json', JSON.stringify(T));
+fs.writeFileSync('./data/17.json', JSON.stringify(T));
 console.log('done!');

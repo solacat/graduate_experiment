@@ -1,0 +1,16 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dimentional.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "factorial": "0.0.3",
+    "lodash": "^4.17.2",
+    "mathjs": "^3.8.0"
+  }
+}

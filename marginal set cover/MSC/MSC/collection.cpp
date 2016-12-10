@@ -18,8 +18,6 @@ void combination(string arr, int n, int m, string substr_arr, int subn){
 	}
 }
 
-
-
 void combination_s(string arr){
 	string substr_arr(arr.size(), '\0');
 	for(int i = 0; i < arr.size(); i++){
@@ -29,6 +27,7 @@ void combination_s(string arr){
 }
 
 vector<string> getSubsetOfMarginTable(string KMar){
+	subset.clear();
 	combination_s(KMar);
 	return subset;
 }
