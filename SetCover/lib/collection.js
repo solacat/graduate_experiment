@@ -99,6 +99,18 @@ exports.Us = function(collections){
 }
 
 //different set1
+exports.DSet_n = function(u1, u2){
+    var i = 0;
+    u2.map(item=>{
+        if(u1[item] == undefined){
+            i++;
+        }
+    })
+    return i;
+}
+
+
+//different set1
 exports.DSet = function(u1, u2){
     var _t2 = u2.split('');
     var min = Number.MAX_VALUE;

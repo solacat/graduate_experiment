@@ -274,9 +274,9 @@ function CMC(T, C, Cs, n, cov) {
 }
 
 //test for CMC
-const string = 'abcdefghijklnmopq';
-const k = 11;
-var n = 258;
+const string = 'abcdefghijklnmopqrstu';
+const k = 14;
+var n = 356;
 var S = [];
 var T = collection.getSubsetOfMarginTable(string);
 var Cs = getMarginalTable_k(T, k);

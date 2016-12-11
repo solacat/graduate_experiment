@@ -3,15 +3,16 @@
 const _ = require('lodash');
 const fs = require('fs');
 const collection = require('./lib/collection');
-const margin10_10 = require('./marginal/20-20.json');
+const margin10_10 = require('./marginal/18-18.json');
 
-const string = 'abcdefghij';
+const string = 'abcdefghijklnmopqr';
 const marginTables = collection.getSubsetOfMarginTable(string);
 
 var MBens = {};
 var solution = [];
 var solutionMap = {};
 var uncoverSets = [];//收集为加入的子集
+var S_MBen = 0;
 
 //divide by level
 var margins = {};
@@ -29,14 +30,14 @@ marginTables.map(item=>{
 var getMBens = function(s, S){
     //const margins = collection.getSubsetOfMarginTable(s);
     const margins = margin10_10[s];
-    return collection.DSet(S, margins);
+    return collection.DSet_n(S, margins);
 }
 
 //get MBens Map
 var getMBensMap = function(margins){
     var MBensMap = {};
     margins.map(item=>{
-        MBensMap[item] = getMBens(item, solution);
+        MBensMap[item] = _mben;
     })
 }
 
@@ -91,22 +92,32 @@ var getBestMBens = function(margins, n){
 //when there is more than one element, update the rest of MBens and add
 var updateAndAddIn = function(margins){
     var margin = margins[0];
-    updateAndAddIn_d(margin, margins);
-}
-
-var updateAndAddIn_d = function(margin, margins){
-    if(margin.mben == 1 || margins.length == 0){
-        uncoverSets = uncoverSets.concat(margins);
-        return false;
-    }else{
+    while(margin.mben != 1 && margins.length != 0){
         var targe = margin.p;
+        S_MBen += margin.mben;
         solution.push(targe);
         updateSolutionMap(targe, solutionMap);
         margins.splice(margin.index,1);
         var margin = updateMBensInSameLevel(margins);
-        updateAndAddIn_d(margin, margins);
     }
+    uncoverSets = uncoverSets.concat(margins);
 }
+
+// var updateAndAddIn_d = function(margin, margins){
+//     if(margin.mben == 1 || margins.length == 0){
+//         uncoverSets = uncoverSets.concat(margins);
+//         return false;
+//     }else{
+//         var targe = margin.p;
+//         S_MBen += margin.mben;
+//         solution.push(targe);
+//         updateSolutionMap(targe, solutionMap);
+//         margins.splice(margin.index,1);
+//         var margin = updateMBensInSameLevel(margins);
+//         updateAndAddIn_d(margin, margins);
+//     }
+// }
+
 
 //update MBens in next level
 var updateMBensInNextLevel = function(margins){
@@ -188,12 +199,14 @@ marginTables.map(margin=>{
         if(mben > 0){
             //console.log(`${margin}:${mben}`);
             u2_count++;
+            //S_MBen += mben;
             solution.push(margin);
             updateSolutionMap(margin, solutionMap);
         }
     }
 })
-console.log(u2_count);
+//console.log(u2_count);
+
 
 var solutionCover = [];
 for(var key in solutionMap){
@@ -201,6 +214,9 @@ for(var key in solutionMap){
 }
 
 const total = Math.pow(2, string.length) - 1;
+
 console.log(solution.length);
+console.log(S_MBen);
 console.log(total);
 console.log(`coverage: ${solutionCover.length / total}`);
+console.log(`approximation: ${S_MBen / total}`);
