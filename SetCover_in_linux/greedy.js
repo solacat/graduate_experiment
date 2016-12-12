@@ -10,7 +10,7 @@ const collection = require('./lib/collection');
 const _ = require('lodash');
 const DP = require('./lib/DP');
 
-var marginTables = require('./marginal/10-7.json');
+var marginTables = require('./marginal/12-8.json');
 var set_S = {};//solution map
 
 /*
@@ -279,9 +279,9 @@ function CMC(T, C, Cs, n, cov) {
 }
 
 //test for CMC
-const string = 'abcdefghijklnmopq';
-const k = 10;
-var n = 845;
+const string = 'abcdefghijkl';
+const k = 8;
+var n = 134;
 var T = collection.getSubsetOfMarginTable(string);
 var Cs = getMarginalTable_k(T, k);
 var C = DP.DP(Cs, n);

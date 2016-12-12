@@ -137,7 +137,7 @@ exports.DSet_pro = function(u1, u2){
         var suu = _.intersection(_t1, _t2);
         var n2 = suu.length;
         var n1 = _t1.length - n2;
-        var mv = (Math.pow(2,n1)-1)*Math.pow(n2);
+        var mv = (Math.pow(2,n1)-1)*Math.pow(2,n2);
         if(mv < min){
             min = mv;
         }

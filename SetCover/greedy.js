@@ -7,8 +7,11 @@
 const math = require('mathjs');
 const fs = require('fs');
 const collection = require('./lib/collection');
+const binomial = require('./lib/binomial');
 const _ = require('lodash');
 const DP = require('./lib/DP');
+
+var marginTables = require('./marginal/12-8.json');
 
 var set_S = {};//solution map
 
@@ -206,6 +209,15 @@ function getMarginalTable_k(T, k){
     return marginls;
 }
 
+//
+function updateSetOfSolution(s){
+    var solutionMap = collection.getSubsetOfMarginTable(s);
+    solutionMap.map(item=>{
+        S_set.add(item);
+    })
+    return S_set.size;
+}
+
 
 /*
 **Main： get solution sets
@@ -237,9 +249,12 @@ function CMC_greedy(T, C, Cs, n, cov) {
                     //join to solution set
                     S.push(q.p);
                     Ss.push(q);
-                    console.log(q + ':' + S.length);
 
-                    if(S.length >= n){
+                    var len = updateSetOfSolution(q.p);
+
+                    console.log(q.p + ':' + S.length + 'covr : ' + len/T.length);
+
+                    if(len/T.length >= cov){
                         return S;
                     }
 
@@ -269,16 +284,18 @@ function CMC_greedy(T, C, Cs, n, cov) {
 }
 
 //test for CMC
-const string = 'abcdefghijklnmopqrstu';
-const k = 14;
-var n = 356;
+const string = 'abcdefghijkl';
+const k = 9;
+const cov = 0.8;
+var n = binomial.Binomial(k,string.length);
 var T = collection.getSubsetOfMarginTable(string);
 var Cs = getMarginalTable_k(T, k);
 var C = DP.DP(Cs, n);
 var B = findCheapCost(C, n);
 var S = [];
+var S_set = new Set();
 console.time('CMC_greedy time');
-const solution = CMC_greedy(T, C, Cs, n, 0.8);
+const solution = CMC_greedy(T, C, Cs, n, cov);
 console.timeEnd('CMC_greedy time');
 console.log('CMC_greedy process memory:' + process.memoryUsage().heapUsed/(1024*1024));
 console.log('CMC_greedy process memory:' + process.memoryUsage().heapTotal/(1024*1024));
