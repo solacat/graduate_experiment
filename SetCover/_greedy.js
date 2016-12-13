@@ -39,10 +39,10 @@ var findCheapCost = function (sets, k) {
 /*
 **Form set
 */
-var updateSets = function(s){
+var updateSets = function (s) {
     var sets = marginTables[s.p];
-    sets.map(item=>{
-        if(set_S[item] == undefined){
+    sets.map(item => {
+        if (set_S[item] == undefined) {
             set_S[item] = 1;
         }
     })
@@ -57,8 +57,8 @@ var MBen = function (s) {
 
     //console.time('getSubsetOfMarginTable');
     // const collection_S = S.map(marginal=>{
-	// 	return collection.getSubsetOfMarginTable(marginal);
-	// });
+    // 	return collection.getSubsetOfMarginTable(marginal);
+    // });
     // const u_s = collection.getSubsetOfMarginTable(s);
     //console.timeEnd('getSubsetOfMarginTable');
 
@@ -91,7 +91,7 @@ var updateMBen = function (C, S, MBen_s) {
 var getMBen = function (C) {
     var MBens = {};
     C.map(item => {
-        MBens[item] = math.pow(2, item.length)-1;
+        MBens[item] = math.pow(2, item.length) - 1;
     })
     return MBens;
 }
@@ -114,19 +114,6 @@ var getSumCost = function (sets) {
 **Input: sets and level
 **Ouput: {'level':[]}
 */
-var divideLevel = function (sets, level) {
-    var _Divide = {};
-    sets = _.sortBy(sets, 'weight');
-    var m = Math.floor(sets.length/level);
-    for (var i = 1; i <= level; i++) {
-        if(sets.length - m  >= m){
-            _Divide[i] = sets.splice(0, m);
-        }else{
-            _Divide[i] = sets;
-        }
-    }
-    return _Divide;
-}
 
 /*
 **Sample sets
@@ -147,7 +134,7 @@ var SampleSet = function (level, k) {
 **Input: divide_set, MBen 
 **Ouput：Max MBen in divide_set
 */
-var getMaxMBenInDivideSet = function (divide_set, MBen_s, sample) {
+var getMaxMBenInDivideSet = function (divide_set, MBen_s) {
     var _Max = MBen_s[divide_set[0].p];
     var _index = 0;
     var maxSet = [];
@@ -156,10 +143,11 @@ var getMaxMBenInDivideSet = function (divide_set, MBen_s, sample) {
             _Max = MBen_s[set.p];
         }
     });
-    for(var i = 0; i<divide_set.length;i++){
-        if(MBen_s[divide_set[i].p] != _Max){
+    console.log(`where mben = ${_Max}`);
+    for (var i = 0; i < divide_set.length; i++) {
+        if (MBen_s[divide_set[i].p] != _Max) {
             continue;
-        }else{
+        } else {
             maxSet.push({
                 p: divide_set[i].p,
                 weight: divide_set[i].weight,
@@ -173,7 +161,7 @@ var getMaxMBenInDivideSet = function (divide_set, MBen_s, sample) {
 /*
 **get min weight
 */
-function getMinWeight(sets){
+function getMinWeight(sets) {
     var _sets = _.sortBy(sets, 'weight');
     return _sets[0];
 }
@@ -183,14 +171,14 @@ function getMinWeight(sets){
 **find the k sets to cover the all attribute
 **return k
 **/
-function getCheapest_k(C, T, cov){
+function getCheapest_k(C, T, cov) {
     var union = collection.U(C[0], C[1]);
-    if(union.length == T.length){
+    if (union.length == T.length) {
         return 2;
-    }else{
-        for(var i = 2; i < C.length;i++){
-            union = collection.U(C[i],union.toString().replace(/,/g, ''));
-            if(union.length == T.length)
+    } else {
+        for (var i = 2; i < C.length; i++) {
+            union = collection.U(C[i], union.toString().replace(/,/g, ''));
+            if (union.length == T.length)
                 return i;
         }
     }
@@ -199,20 +187,20 @@ function getCheapest_k(C, T, cov){
 /*
 **get k-marginal table
 */
-function getMarginalTable_k(T, k){
+function getMarginalTable_k(T, k) {
     var marginls = [];
-    T.map(set=>{
-        if(set.length == k){
-            marginls.push(set);        
+    T.map(set => {
+        if (set.length == k) {
+            marginls.push(set);
         }
     })
     return marginls;
 }
 
 //
-function updateSetOfSolution(s){
+function updateSetOfSolution(s) {
     var solutionMap = collection.getSubsetOfMarginTable(s);
-    solutionMap.map(item=>{
+    solutionMap.map(item => {
         S_set.add(item);
     })
     return S_set.size;
@@ -233,77 +221,61 @@ function updateSetOfSolution(s){
 function CMC_greedy(T, C, Cs, n, cov) {
     var Ss = [];
     var MBen_s = getMBen(Cs);
-    const level = math.fix(math.log(n, 2));
-    const divide_set = divideLevel(C, level);
-    const sample_set = SampleSet(level, n);
-    //console.log(divide_set);
-    //
-    for (var i = 1; i <= level; i++) {
-        var sample = sample_set[i];
-        for (var j = 0; j < sample; j++) {
-            if(divide_set[i].length != 0){
-                //console.time("getMaxMBenInDivideSet");
-                var q = getMaxMBenInDivideSet(divide_set[i], MBen_s, sample);
-                //console.timeEnd("getMaxMBenInDivideSet");
-                if (q != false) {
-                    //join to solution set
-                    S.push(q.p);
-                    Ss.push(q);
+    //console.time("getMaxMBenInDivideSet");
+    while(1){
+        var q = getMaxMBenInDivideSet(C, MBen_s);
+        //console.timeEnd("getMaxMBenInDivideSet");
+        if (q != false) {
+            //join to solution set
+            S.push(q.p);
+            Ss.push(q);
 
-                    var len = updateSetOfSolution(q.p);
+            var len = updateSetOfSolution(q.p);
 
-                    console.log(q.p + ':' + S.length + 'covr : ' + len/T.length);
+            console.log('covr : ' + len / T.length + 'size: ' + S.length);
 
-                    if(len/T.length >= cov){
-                        return S;
-                    }
-
-                    //delete from Cs
-                    var index_c = Cs.indexOf(q.p);
-                    Cs.splice(index_c, 1);
-
-                    //delete from MBen_s
-                    delete MBen_s[q.p];
-
-                    //delete from divide_set
-                    divide_set[i].splice(q.index, 1);
-
-                    //console.log(divide_set[i].length);
-                    //console.time("updateMBen");
-                    updateMBen(divide_set[i], S, MBen_s);
-                    //console.timeEnd("updateMBen");
-                } else {
-                    break;                   
-                }
-            }else{
-                break;
+            if (len / T.length >= cov) {
+                return S;
             }
+
+            //delete from Cs
+            var index_c = Cs.indexOf(q.p);
+            Cs.splice(index_c, 1);
+
+            //delete from MBen_s
+            delete MBen_s[q.p];
+
+            //delete from divide_set
+            C.splice(q.index, 1);
+            updateMBen(C, S, MBen_s);
+            //console.timeEnd("updateMBen");
         }
     }
-    return S;
 }
 
 //test for CMC
-const string = 'abcdefghij';
-const k = 7;
-const cov = 0.8;
-var n = binomial.Binomial(k,string.length);
+const string = 'abcdefghijklnmo';
+const k = 9;
+const cov = 0.7;
+var n = binomial.Binomial(k, string.length);
 var T = collection.getSubsetOfMarginTable(string);
 var Cs = getMarginalTable_k(T, k);
 var C = DP.DP(Cs, n);
 var B = findCheapCost(C, n);
 var S = [];
 var S_set = new Set();
+var total = T.length;
 console.time('CMC_greedy time');
 const solution = CMC_greedy(T, C, Cs, n, cov);
 console.timeEnd('CMC_greedy time');
-console.log('CMC_greedy process memory:' + process.memoryUsage().heapUsed/(1024*1024));
-console.log('CMC_greedy process memory:' + process.memoryUsage().heapTotal/(1024*1024));
-const collection_S = solution.map(marginal=>{
+console.log('CMC_greedy process memory:' + process.memoryUsage().heapUsed / (1024 * 1024));
+console.log('CMC_greedy process memory:' + process.memoryUsage().heapTotal / (1024 * 1024));
+console.log(S.length);
+const collection_S = solution.map(marginal => {
     return collection.getSubsetOfMarginTable(marginal);
 });
 const u_S = collection.U(collection_S);
 //console.log(`solution marginal tables: ${solution}`);
-console.log(`coverage: ${u_S.length/T.length}`);
+console.log(`coverage: ${u_S.length / T.length}`);
 //fs.writeFileSync('./data/15-9-solution.txt', solution.join());
 

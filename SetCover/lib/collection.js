@@ -52,6 +52,16 @@ var getSubsetOfMarginTable = function(KMar){
     return comb_arr;
 }
 
+exports.getMarginalTable_k = function(T, k){
+    var marginls = [];
+    T.map(set=>{
+        if(set.length == k){
+            marginls.push(set);        
+        }
+    })
+    return marginls;
+}
+
 exports.getSubsetOfMarginTable = function(KMar){
     var S = KMar.split('');
     var n = S.length;
