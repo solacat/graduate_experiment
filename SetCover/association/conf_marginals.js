@@ -16,8 +16,8 @@ for(var key in conf_map){
     })
 }
 
-const string = 'abcdefghij';
-const k = 6;
+const string = 'abcdefghijkl';
+const k = 8;
 const marginals = collection.getSubsetOfMarginTable(string);
 const marginal_k = collection.getMarginalTable_k(marginals, k);
 
@@ -33,8 +33,6 @@ marginal_k.map(margin=>{
         _attrs = `${attr_map[+_attrs[0]]}${attr_map[+_attrs[1]]}`;
         var d_arr = _.difference(_attrs.split(''), margin.split('')); 
         if(d_arr.length == 0){
-            console.log(_attrs);
-            console.log(margin);
             ascArr.push(_attrs);
             _conf += asc.conf;
             marginConf_map[margin] += asc.conf;
@@ -49,5 +47,7 @@ marginal_k.map(margin=>{
 
 marginConf_Arr = _.sortBy(marginConf_Arr, 'conf');
 
-fs.writeFileSync('./margin10-6_conf.json', JSON.stringify(marginConf_map));
-fs.writeFileSync('./margin10-6_conf_arr.json', JSON.stringify(marginConf_Arr));
+fs.writeFileSync('./margin13-8_conf.json', JSON.stringify(marginConf_map));
+fs.writeFileSync('./margin13-8_conf_arr.json', JSON.stringify(marginConf_Arr));
+
+console.log('work done!!');

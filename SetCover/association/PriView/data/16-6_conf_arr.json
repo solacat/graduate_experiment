@@ -1,0 +1,4759 @@
+[
+    {
+        "margin": "ehjlnp",
+        "conf": 0.036681686795893446,
+        "ascs": [
+            "jh",
+            "lh",
+            "nh",
+            "jl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "cdehlp",
+        "conf": 0.04128880703348514,
+        "ascs": [
+            "cd",
+            "lc",
+            "dh",
+            "ld",
+            "lh"
+        ]
+    },
+    {
+        "margin": "bcehnp",
+        "conf": 0.053919327082877916,
+        "ascs": [
+            "bc",
+            "be",
+            "bh",
+            "nh"
+        ]
+    },
+    {
+        "margin": "bdegnp",
+        "conf": 0.05659857295754209,
+        "ascs": [
+            "bd",
+            "be",
+            "bg",
+            "dg",
+            "nd"
+        ]
+    },
+    {
+        "margin": "cdegjp",
+        "conf": 0.06587887874948334,
+        "ascs": [
+            "cd",
+            "cg",
+            "jc",
+            "dg",
+            "jd",
+            "jg"
+        ]
+    },
+    {
+        "margin": "befhmp",
+        "conf": 0.06843654899607433,
+        "ascs": [
+            "be",
+            "bf",
+            "bh",
+            "mb",
+            "fh",
+            "mf",
+            "mh"
+        ]
+    },
+    {
+        "margin": "behilp",
+        "conf": 0.06996127852292741,
+        "ascs": [
+            "be",
+            "bh",
+            "lb",
+            "hi",
+            "lh",
+            "li"
+        ]
+    },
+    {
+        "margin": "bdeimp",
+        "conf": 0.07198704007042846,
+        "ascs": [
+            "bd",
+            "be",
+            "mb",
+            "di",
+            "md",
+            "mi"
+        ]
+    },
+    {
+        "margin": "cdehio",
+        "conf": 0.07344123610317435,
+        "ascs": [
+            "cd",
+            "ci",
+            "oc",
+            "dh",
+            "di",
+            "hi"
+        ]
+    },
+    {
+        "margin": "cdegim",
+        "conf": 0.08304417394461125,
+        "ascs": [
+            "cd",
+            "cg",
+            "ci",
+            "mc",
+            "dg",
+            "di",
+            "md",
+            "gi",
+            "mg",
+            "mi"
+        ]
+    },
+    {
+        "margin": "bdefhn",
+        "conf": 0.08347680766000663,
+        "ascs": [
+            "bd",
+            "be",
+            "bf",
+            "bh",
+            "df",
+            "dh",
+            "nd",
+            "fh",
+            "nf",
+            "nh"
+        ]
+    },
+    {
+        "margin": "begijp",
+        "conf": 0.08624281781681503,
+        "ascs": [
+            "be",
+            "bg",
+            "jb",
+            "gi",
+            "jg",
+            "ji"
+        ]
+    },
+    {
+        "margin": "beghkp",
+        "conf": 0.09101961154930223,
+        "ascs": [
+            "be",
+            "bg",
+            "bh",
+            "kb",
+            "gh",
+            "kg",
+            "kh"
+        ]
+    },
+    {
+        "margin": "bhijnp",
+        "conf": 0.09335207718839961,
+        "ascs": [
+            "bh",
+            "jb",
+            "hi",
+            "jh",
+            "nh",
+            "ji",
+            "ni"
+        ]
+    },
+    {
+        "margin": "bgilnp",
+        "conf": 0.09424713565733724,
+        "ascs": [
+            "bg",
+            "lb",
+            "gi",
+            "lg",
+            "li",
+            "ni",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bdeflp",
+        "conf": 0.09543246831132321,
+        "ascs": [
+            "bd",
+            "be",
+            "bf",
+            "lb",
+            "df",
+            "ld",
+            "lf"
+        ]
+    },
+    {
+        "margin": "bdinop",
+        "conf": 0.10363695851977825,
+        "ascs": [
+            "bd",
+            "ob",
+            "di",
+            "nd",
+            "ni"
+        ]
+    },
+    {
+        "margin": "bejnmp",
+        "conf": 0.10381314704673124,
+        "ascs": [
+            "be",
+            "jb",
+            "mb",
+            "jm",
+            "nm"
+        ]
+    },
+    {
+        "margin": "bghjmp",
+        "conf": 0.10890813998918539,
+        "ascs": [
+            "bg",
+            "bh",
+            "jb",
+            "mb",
+            "gh",
+            "jg",
+            "mg",
+            "jh",
+            "mh",
+            "jm"
+        ]
+    },
+    {
+        "margin": "cdefhj",
+        "conf": 0.109675434190604,
+        "ascs": [
+            "cd",
+            "cf",
+            "jc",
+            "df",
+            "dh",
+            "jd",
+            "fh",
+            "jf",
+            "jh"
+        ]
+    },
+    {
+        "margin": "bcdehm",
+        "conf": 0.11036868788624138,
+        "ascs": [
+            "bc",
+            "bd",
+            "be",
+            "bh",
+            "mb",
+            "cd",
+            "mc",
+            "dh",
+            "md",
+            "mh"
+        ]
+    },
+    {
+        "margin": "cdfhln",
+        "conf": 0.11140413087647051,
+        "ascs": [
+            "cd",
+            "cf",
+            "lc",
+            "df",
+            "dh",
+            "ld",
+            "nd",
+            "fh",
+            "lf",
+            "nf",
+            "lh",
+            "nh",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bdeghl",
+        "conf": 0.11336406039548175,
+        "ascs": [
+            "bd",
+            "be",
+            "bg",
+            "bh",
+            "lb",
+            "dg",
+            "dh",
+            "ld",
+            "gh",
+            "lg",
+            "lh"
+        ]
+    },
+    {
+        "margin": "belnop",
+        "conf": 0.11924815121410517,
+        "ascs": [
+            "be",
+            "lb",
+            "ob",
+            "ln",
+            "lo"
+        ]
+    },
+    {
+        "margin": "bcflnp",
+        "conf": 0.12295136977454862,
+        "ascs": [
+            "bc",
+            "bf",
+            "lb",
+            "cf",
+            "lc",
+            "lf",
+            "nf",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bcghln",
+        "conf": 0.12309298646400466,
+        "ascs": [
+            "bc",
+            "bg",
+            "bh",
+            "lb",
+            "cg",
+            "lc",
+            "gh",
+            "lg",
+            "lh",
+            "nh",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bekmop",
+        "conf": 0.12366864204444354,
+        "ascs": [
+            "be",
+            "kb",
+            "mb",
+            "ob",
+            "km"
+        ]
+    },
+    {
+        "margin": "aeghip",
+        "conf": 0.12428018949875073,
+        "ascs": [
+            "ae",
+            "ag",
+            "ah",
+            "gh",
+            "gi",
+            "hi"
+        ]
+    },
+    {
+        "margin": "begkln",
+        "conf": 0.12647854576883688,
+        "ascs": [
+            "be",
+            "bg",
+            "kb",
+            "lb",
+            "kg",
+            "lg",
+            "kl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "behjkn",
+        "conf": 0.1280069654498397,
+        "ascs": [
+            "be",
+            "bh",
+            "jb",
+            "kb",
+            "jh",
+            "kh",
+            "nh",
+            "jk"
+        ]
+    },
+    {
+        "margin": "bceiop",
+        "conf": 0.1318271120996486,
+        "ascs": [
+            "bc",
+            "be",
+            "ob",
+            "ci",
+            "oc"
+        ]
+    },
+    {
+        "margin": "bdghjn",
+        "conf": 0.13227376870030186,
+        "ascs": [
+            "bd",
+            "bg",
+            "bh",
+            "jb",
+            "dg",
+            "dh",
+            "jd",
+            "nd",
+            "gh",
+            "jg",
+            "jh",
+            "nh"
+        ]
+    },
+    {
+        "margin": "cdeklm",
+        "conf": 0.13392978979297063,
+        "ascs": [
+            "cd",
+            "kc",
+            "lc",
+            "mc",
+            "kd",
+            "ld",
+            "md",
+            "kl",
+            "km",
+            "lm"
+        ]
+    },
+    {
+        "margin": "bcinmp",
+        "conf": 0.13404813216672468,
+        "ascs": [
+            "bc",
+            "mb",
+            "ci",
+            "mc",
+            "ni",
+            "mi",
+            "nm"
+        ]
+    },
+    {
+        "margin": "bgikmp",
+        "conf": 0.1344522971186058,
+        "ascs": [
+            "bg",
+            "kb",
+            "mb",
+            "gi",
+            "kg",
+            "mg",
+            "ki",
+            "mi",
+            "km"
+        ]
+    },
+    {
+        "margin": "bceghj",
+        "conf": 0.13634633421775064,
+        "ascs": [
+            "bc",
+            "be",
+            "bg",
+            "bh",
+            "jb",
+            "cg",
+            "jc",
+            "gh",
+            "jg",
+            "jh"
+        ]
+    },
+    {
+        "margin": "bdfjnp",
+        "conf": 0.13705588663892151,
+        "ascs": [
+            "bd",
+            "bf",
+            "jb",
+            "df",
+            "jd",
+            "nd",
+            "jf",
+            "nf"
+        ]
+    },
+    {
+        "margin": "bhikop",
+        "conf": 0.13724017911472466,
+        "ascs": [
+            "bh",
+            "kb",
+            "ob",
+            "hi",
+            "kh",
+            "ki"
+        ]
+    },
+    {
+        "margin": "bdekno",
+        "conf": 0.1373114685398229,
+        "ascs": [
+            "bd",
+            "be",
+            "kb",
+            "ob",
+            "kd",
+            "nd"
+        ]
+    },
+    {
+        "margin": "behjlm",
+        "conf": 0.14035539811432246,
+        "ascs": [
+            "be",
+            "bh",
+            "jb",
+            "lb",
+            "mb",
+            "jh",
+            "lh",
+            "mh",
+            "jl",
+            "jm",
+            "lm"
+        ]
+    },
+    {
+        "margin": "adfhnp",
+        "conf": 0.14311684660824328,
+        "ascs": [
+            "ad",
+            "af",
+            "ah",
+            "df",
+            "dh",
+            "nd",
+            "fh",
+            "nf",
+            "nh"
+        ]
+    },
+    {
+        "margin": "bcdekp",
+        "conf": 0.14409911793892244,
+        "ascs": [
+            "bc",
+            "bd",
+            "be",
+            "kb",
+            "cd",
+            "kc",
+            "kd"
+        ]
+    },
+    {
+        "margin": "bcefim",
+        "conf": 0.14501440578164818,
+        "ascs": [
+            "bc",
+            "be",
+            "bf",
+            "mb",
+            "cf",
+            "ci",
+            "mc",
+            "fi",
+            "mf",
+            "mi"
+        ]
+    },
+    {
+        "margin": "bcefjp",
+        "conf": 0.14689760626709364,
+        "ascs": [
+            "bc",
+            "be",
+            "bf",
+            "jb",
+            "cf",
+            "jc",
+            "jf"
+        ]
+    },
+    {
+        "margin": "bchmop",
+        "conf": 0.1474730826019527,
+        "ascs": [
+            "bc",
+            "bh",
+            "mb",
+            "ob",
+            "mc",
+            "oc",
+            "mh"
+        ]
+    },
+    {
+        "margin": "bchjlp",
+        "conf": 0.14760533172116805,
+        "ascs": [
+            "bc",
+            "bh",
+            "jb",
+            "lb",
+            "jc",
+            "lc",
+            "jh",
+            "lh",
+            "jl"
+        ]
+    },
+    {
+        "margin": "bejklp",
+        "conf": 0.14840148253294044,
+        "ascs": [
+            "be",
+            "jb",
+            "kb",
+            "lb",
+            "jk",
+            "jl",
+            "kl"
+        ]
+    },
+    {
+        "margin": "bdehik",
+        "conf": 0.14975459383758544,
+        "ascs": [
+            "bd",
+            "be",
+            "bh",
+            "kb",
+            "dh",
+            "di",
+            "kd",
+            "hi",
+            "kh",
+            "ki"
+        ]
+    },
+    {
+        "margin": "bcdjmp",
+        "conf": 0.15153435133987472,
+        "ascs": [
+            "bc",
+            "bd",
+            "jb",
+            "mb",
+            "cd",
+            "jc",
+            "mc",
+            "jd",
+            "md",
+            "jm"
+        ]
+    },
+    {
+        "margin": "cdefgl",
+        "conf": 0.1531463581290303,
+        "ascs": [
+            "cd",
+            "cf",
+            "cg",
+            "lc",
+            "df",
+            "dg",
+            "ld",
+            "fg",
+            "lf",
+            "lg"
+        ]
+    },
+    {
+        "margin": "bcdhno",
+        "conf": 0.15381214527558631,
+        "ascs": [
+            "bc",
+            "bd",
+            "bh",
+            "ob",
+            "cd",
+            "oc",
+            "dh",
+            "nd",
+            "nh"
+        ]
+    },
+    {
+        "margin": "bcefgn",
+        "conf": 0.15391702817285666,
+        "ascs": [
+            "bc",
+            "be",
+            "bf",
+            "bg",
+            "cf",
+            "cg",
+            "fg",
+            "nf"
+        ]
+    },
+    {
+        "margin": "cdejko",
+        "conf": 0.1542707788598646,
+        "ascs": [
+            "cd",
+            "jc",
+            "kc",
+            "oc",
+            "jd",
+            "kd",
+            "jk",
+            "jo"
+        ]
+    },
+    {
+        "margin": "bdgjlp",
+        "conf": 0.1552863446584573,
+        "ascs": [
+            "bd",
+            "bg",
+            "jb",
+            "lb",
+            "dg",
+            "jd",
+            "ld",
+            "jg",
+            "lg",
+            "jl"
+        ]
+    },
+    {
+        "margin": "bdhijm",
+        "conf": 0.15755228682586478,
+        "ascs": [
+            "bd",
+            "bh",
+            "jb",
+            "mb",
+            "dh",
+            "di",
+            "jd",
+            "md",
+            "hi",
+            "jh",
+            "mh",
+            "ji",
+            "mi",
+            "jm"
+        ]
+    },
+    {
+        "margin": "bdgmop",
+        "conf": 0.15807833458570023,
+        "ascs": [
+            "bd",
+            "bg",
+            "mb",
+            "ob",
+            "dg",
+            "md",
+            "mg",
+            "og"
+        ]
+    },
+    {
+        "margin": "cdfhkm",
+        "conf": 0.1639660181445916,
+        "ascs": [
+            "cd",
+            "cf",
+            "kc",
+            "mc",
+            "df",
+            "dh",
+            "kd",
+            "md",
+            "fh",
+            "kf",
+            "mf",
+            "kh",
+            "mh",
+            "km"
+        ]
+    },
+    {
+        "margin": "beflnm",
+        "conf": 0.1678182426011629,
+        "ascs": [
+            "be",
+            "bf",
+            "lb",
+            "mb",
+            "lf",
+            "nf",
+            "mf",
+            "ln",
+            "lm",
+            "nm"
+        ]
+    },
+    {
+        "margin": "bcdgnm",
+        "conf": 0.16916340423611584,
+        "ascs": [
+            "bc",
+            "bd",
+            "bg",
+            "mb",
+            "cd",
+            "cg",
+            "mc",
+            "dg",
+            "nd",
+            "md",
+            "mg",
+            "nm"
+        ]
+    },
+    {
+        "margin": "befhij",
+        "conf": 0.17050373117183842,
+        "ascs": [
+            "be",
+            "bf",
+            "bh",
+            "jb",
+            "fh",
+            "fi",
+            "jf",
+            "hi",
+            "jh",
+            "ji"
+        ]
+    },
+    {
+        "margin": "aehnmp",
+        "conf": 0.17081145297194056,
+        "ascs": [
+            "ae",
+            "ah",
+            "am",
+            "nh",
+            "mh",
+            "nm"
+        ]
+    },
+    {
+        "margin": "bchilm",
+        "conf": 0.17135457018725667,
+        "ascs": [
+            "bc",
+            "bh",
+            "lb",
+            "mb",
+            "ci",
+            "lc",
+            "mc",
+            "hi",
+            "lh",
+            "mh",
+            "li",
+            "mi",
+            "lm"
+        ]
+    },
+    {
+        "margin": "bghlop",
+        "conf": 0.17233004755329268,
+        "ascs": [
+            "bg",
+            "bh",
+            "lb",
+            "ob",
+            "gh",
+            "lg",
+            "og",
+            "lh",
+            "lo"
+        ]
+    },
+    {
+        "margin": "bcegik",
+        "conf": 0.17301882277626582,
+        "ascs": [
+            "bc",
+            "be",
+            "bg",
+            "kb",
+            "cg",
+            "ci",
+            "kc",
+            "gi",
+            "kg",
+            "ki"
+        ]
+    },
+    {
+        "margin": "acdeip",
+        "conf": 0.17408209084816315,
+        "ascs": [
+            "ac",
+            "ad",
+            "ae",
+            "cd",
+            "ci",
+            "di"
+        ]
+    },
+    {
+        "margin": "acefhp",
+        "conf": 0.1746944749380725,
+        "ascs": [
+            "ac",
+            "ae",
+            "af",
+            "ah",
+            "cf",
+            "fh"
+        ]
+    },
+    {
+        "margin": "fgjlnp",
+        "conf": 0.17540966773010394,
+        "ascs": [
+            "fg",
+            "jf",
+            "lf",
+            "nf",
+            "jg",
+            "lg",
+            "jl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bfhiln",
+        "conf": 0.17586565807203636,
+        "ascs": [
+            "bf",
+            "bh",
+            "lb",
+            "fh",
+            "fi",
+            "lf",
+            "nf",
+            "hi",
+            "lh",
+            "nh",
+            "li",
+            "ni",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bceknm",
+        "conf": 0.1765137531341247,
+        "ascs": [
+            "bc",
+            "be",
+            "kb",
+            "mb",
+            "kc",
+            "mc",
+            "km",
+            "nm"
+        ]
+    },
+    {
+        "margin": "bfgnmp",
+        "conf": 0.17859564037775127,
+        "ascs": [
+            "bf",
+            "bg",
+            "mb",
+            "fg",
+            "nf",
+            "mf",
+            "mg",
+            "nm"
+        ]
+    },
+    {
+        "margin": "bdgilm",
+        "conf": 0.17996587963205768,
+        "ascs": [
+            "bd",
+            "bg",
+            "lb",
+            "mb",
+            "dg",
+            "di",
+            "ld",
+            "md",
+            "gi",
+            "lg",
+            "mg",
+            "li",
+            "mi",
+            "lm"
+        ]
+    },
+    {
+        "margin": "bchikn",
+        "conf": 0.17998618167106184,
+        "ascs": [
+            "bc",
+            "bh",
+            "kb",
+            "ci",
+            "kc",
+            "hi",
+            "kh",
+            "nh",
+            "ki",
+            "ni"
+        ]
+    },
+    {
+        "margin": "cdefik",
+        "conf": 0.18002120105025482,
+        "ascs": [
+            "cd",
+            "cf",
+            "ci",
+            "kc",
+            "df",
+            "di",
+            "kd",
+            "fi",
+            "kf",
+            "ki"
+        ]
+    },
+    {
+        "margin": "beiklm",
+        "conf": 0.18018419112251086,
+        "ascs": [
+            "be",
+            "kb",
+            "lb",
+            "mb",
+            "ki",
+            "li",
+            "mi",
+            "kl",
+            "km",
+            "lm"
+        ]
+    },
+    {
+        "margin": "bcgijm",
+        "conf": 0.1809602819215535,
+        "ascs": [
+            "bc",
+            "bg",
+            "jb",
+            "mb",
+            "cg",
+            "ci",
+            "jc",
+            "mc",
+            "gi",
+            "jg",
+            "mg",
+            "ji",
+            "mi",
+            "jm"
+        ]
+    },
+    {
+        "margin": "bdelmo",
+        "conf": 0.1816850009446263,
+        "ascs": [
+            "bd",
+            "be",
+            "lb",
+            "mb",
+            "ob",
+            "ld",
+            "md",
+            "lm",
+            "lo"
+        ]
+    },
+    {
+        "margin": "bdhilo",
+        "conf": 0.1819991301443235,
+        "ascs": [
+            "bd",
+            "bh",
+            "lb",
+            "ob",
+            "dh",
+            "di",
+            "ld",
+            "hi",
+            "lh",
+            "li",
+            "lo"
+        ]
+    },
+    {
+        "margin": "bdgikn",
+        "conf": 0.18257426377686112,
+        "ascs": [
+            "bd",
+            "bg",
+            "kb",
+            "dg",
+            "di",
+            "kd",
+            "nd",
+            "gi",
+            "kg",
+            "ki",
+            "ni"
+        ]
+    },
+    {
+        "margin": "abghnp",
+        "conf": 0.18413098592606333,
+        "ascs": [
+            "ab",
+            "ag",
+            "ah",
+            "bg",
+            "bh",
+            "gh",
+            "nh"
+        ]
+    },
+    {
+        "margin": "bcfkmp",
+        "conf": 0.1855149084662353,
+        "ascs": [
+            "bc",
+            "bf",
+            "kb",
+            "mb",
+            "cf",
+            "kc",
+            "mc",
+            "kf",
+            "mf",
+            "km"
+        ]
+    },
+    {
+        "margin": "bcghkm",
+        "conf": 0.18813572403719434,
+        "ascs": [
+            "bc",
+            "bg",
+            "bh",
+            "kb",
+            "mb",
+            "cg",
+            "kc",
+            "mc",
+            "gh",
+            "kg",
+            "mg",
+            "kh",
+            "mh",
+            "km"
+        ]
+    },
+    {
+        "margin": "bdijkp",
+        "conf": 0.1888832654906572,
+        "ascs": [
+            "bd",
+            "jb",
+            "kb",
+            "di",
+            "jd",
+            "kd",
+            "ji",
+            "ki",
+            "jk"
+        ]
+    },
+    {
+        "margin": "bgjlnm",
+        "conf": 0.19278804444767153,
+        "ascs": [
+            "bg",
+            "jb",
+            "lb",
+            "mb",
+            "jg",
+            "lg",
+            "mg",
+            "jl",
+            "jm",
+            "ln",
+            "lm",
+            "nm"
+        ]
+    },
+    {
+        "margin": "bciklp",
+        "conf": 0.19856245615845117,
+        "ascs": [
+            "bc",
+            "kb",
+            "lb",
+            "ci",
+            "kc",
+            "lc",
+            "ki",
+            "li",
+            "kl"
+        ]
+    },
+    {
+        "margin": "bhjlno",
+        "conf": 0.20108201085411986,
+        "ascs": [
+            "bh",
+            "jb",
+            "lb",
+            "ob",
+            "jh",
+            "lh",
+            "nh",
+            "jl",
+            "jo",
+            "ln",
+            "lo"
+        ]
+    },
+    {
+        "margin": "bfhjkp",
+        "conf": 0.20319350115046564,
+        "ascs": [
+            "bf",
+            "bh",
+            "jb",
+            "kb",
+            "fh",
+            "jf",
+            "kf",
+            "jh",
+            "kh",
+            "jk"
+        ]
+    },
+    {
+        "margin": "bcdflm",
+        "conf": 0.20471799028416438,
+        "ascs": [
+            "bc",
+            "bd",
+            "bf",
+            "lb",
+            "mb",
+            "cd",
+            "cf",
+            "lc",
+            "mc",
+            "df",
+            "ld",
+            "md",
+            "lf",
+            "mf",
+            "lm"
+        ]
+    },
+    {
+        "margin": "bdfinm",
+        "conf": 0.20498627209809442,
+        "ascs": [
+            "bd",
+            "bf",
+            "mb",
+            "df",
+            "di",
+            "nd",
+            "md",
+            "fi",
+            "nf",
+            "mf",
+            "ni",
+            "mi",
+            "nm"
+        ]
+    },
+    {
+        "margin": "cdfgjn",
+        "conf": 0.205303536456045,
+        "ascs": [
+            "cd",
+            "cf",
+            "cg",
+            "jc",
+            "df",
+            "dg",
+            "jd",
+            "nd",
+            "fg",
+            "jf",
+            "nf",
+            "jg"
+        ]
+    },
+    {
+        "margin": "befgil",
+        "conf": 0.2063190294232739,
+        "ascs": [
+            "be",
+            "bf",
+            "bg",
+            "lb",
+            "fg",
+            "fi",
+            "lf",
+            "gi",
+            "lg",
+            "li"
+        ]
+    },
+    {
+        "margin": "abdhin",
+        "conf": 0.20723691057191274,
+        "ascs": [
+            "ab",
+            "ad",
+            "ah",
+            "bd",
+            "bh",
+            "dh",
+            "di",
+            "nd",
+            "hi",
+            "nh",
+            "ni"
+        ]
+    },
+    {
+        "margin": "bcdego",
+        "conf": 0.2073184628271893,
+        "ascs": [
+            "bc",
+            "bd",
+            "be",
+            "bg",
+            "ob",
+            "cd",
+            "cg",
+            "oc",
+            "dg",
+            "og"
+        ]
+    },
+    {
+        "margin": "bcdfkn",
+        "conf": 0.208115827249824,
+        "ascs": [
+            "bc",
+            "bd",
+            "bf",
+            "kb",
+            "cd",
+            "cf",
+            "kc",
+            "df",
+            "kd",
+            "nd",
+            "kf",
+            "nf"
+        ]
+    },
+    {
+        "margin": "bcdlop",
+        "conf": 0.21073686856439566,
+        "ascs": [
+            "bc",
+            "bd",
+            "lb",
+            "ob",
+            "cd",
+            "lc",
+            "oc",
+            "ld",
+            "lo"
+        ]
+    },
+    {
+        "margin": "bdjnmo",
+        "conf": 0.2107888859824686,
+        "ascs": [
+            "bd",
+            "jb",
+            "mb",
+            "ob",
+            "jd",
+            "nd",
+            "md",
+            "jm",
+            "jo",
+            "nm"
+        ]
+    },
+    {
+        "margin": "beijko",
+        "conf": 0.21152727705154117,
+        "ascs": [
+            "be",
+            "jb",
+            "kb",
+            "ob",
+            "ji",
+            "ki",
+            "jk",
+            "jo"
+        ]
+    },
+    {
+        "margin": "bdfhjl",
+        "conf": 0.21266664512070568,
+        "ascs": [
+            "bd",
+            "bf",
+            "bh",
+            "jb",
+            "lb",
+            "df",
+            "dh",
+            "jd",
+            "ld",
+            "fh",
+            "jf",
+            "lf",
+            "jh",
+            "lh",
+            "jl"
+        ]
+    },
+    {
+        "margin": "abhimp",
+        "conf": 0.21267252453112193,
+        "ascs": [
+            "ab",
+            "ah",
+            "am",
+            "bh",
+            "mb",
+            "hi",
+            "mh",
+            "mi"
+        ]
+    },
+    {
+        "margin": "adelnp",
+        "conf": 0.21514112159459986,
+        "ascs": [
+            "ad",
+            "ae",
+            "al",
+            "ld",
+            "nd",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bfghkn",
+        "conf": 0.21876443426526893,
+        "ascs": [
+            "bf",
+            "bg",
+            "bh",
+            "kb",
+            "fg",
+            "fh",
+            "kf",
+            "nf",
+            "gh",
+            "kg",
+            "kh",
+            "nh"
+        ]
+    },
+    {
+        "margin": "bdghko",
+        "conf": 0.21917685480927696,
+        "ascs": [
+            "bd",
+            "bg",
+            "bh",
+            "kb",
+            "ob",
+            "dg",
+            "dh",
+            "kd",
+            "gh",
+            "kg",
+            "og",
+            "kh"
+        ]
+    },
+    {
+        "margin": "bfghlm",
+        "conf": 0.22068860242536317,
+        "ascs": [
+            "bf",
+            "bg",
+            "bh",
+            "lb",
+            "mb",
+            "fg",
+            "fh",
+            "lf",
+            "mf",
+            "gh",
+            "lg",
+            "mg",
+            "lh",
+            "mh",
+            "lm"
+        ]
+    },
+    {
+        "margin": "biklno",
+        "conf": 0.22199473037587392,
+        "ascs": [
+            "kb",
+            "lb",
+            "ob",
+            "ki",
+            "li",
+            "ni",
+            "kl",
+            "ln",
+            "lo"
+        ]
+    },
+    {
+        "margin": "bcejmo",
+        "conf": 0.22379717233933075,
+        "ascs": [
+            "bc",
+            "be",
+            "jb",
+            "mb",
+            "ob",
+            "jc",
+            "mc",
+            "oc",
+            "jm",
+            "jo"
+        ]
+    },
+    {
+        "margin": "bhjkmo",
+        "conf": 0.22465173081089776,
+        "ascs": [
+            "bh",
+            "jb",
+            "kb",
+            "mb",
+            "ob",
+            "jh",
+            "kh",
+            "mh",
+            "jk",
+            "jm",
+            "jo",
+            "km"
+        ]
+    },
+    {
+        "margin": "aehijn",
+        "conf": 0.22469916894251984,
+        "ascs": [
+            "ae",
+            "ah",
+            "aj",
+            "hi",
+            "jh",
+            "nh",
+            "ji",
+            "ni"
+        ]
+    },
+    {
+        "margin": "bfhikm",
+        "conf": 0.22533935583882128,
+        "ascs": [
+            "bf",
+            "bh",
+            "kb",
+            "mb",
+            "fh",
+            "fi",
+            "kf",
+            "mf",
+            "hi",
+            "kh",
+            "mh",
+            "ki",
+            "mi",
+            "km"
+        ]
+    },
+    {
+        "margin": "bijknm",
+        "conf": 0.2256416259651254,
+        "ascs": [
+            "jb",
+            "kb",
+            "mb",
+            "ji",
+            "ki",
+            "ni",
+            "mi",
+            "jk",
+            "jm",
+            "km",
+            "nm"
+        ]
+    },
+    {
+        "margin": "adeino",
+        "conf": 0.22834461390233662,
+        "ascs": [
+            "ad",
+            "ae",
+            "ao",
+            "di",
+            "nd",
+            "ni"
+        ]
+    },
+    {
+        "margin": "bchijo",
+        "conf": 0.22929533762904244,
+        "ascs": [
+            "bc",
+            "bh",
+            "jb",
+            "ob",
+            "ci",
+            "jc",
+            "oc",
+            "hi",
+            "jh",
+            "ji",
+            "jo"
+        ]
+    },
+    {
+        "margin": "aeimop",
+        "conf": 0.23353161740068332,
+        "ascs": [
+            "ae",
+            "am",
+            "ao",
+            "mi"
+        ]
+    },
+    {
+        "margin": "acdhmp",
+        "conf": 0.23395112786543795,
+        "ascs": [
+            "ac",
+            "ad",
+            "ah",
+            "am",
+            "cd",
+            "mc",
+            "dh",
+            "md",
+            "mh"
+        ]
+    },
+    {
+        "margin": "bfgklp",
+        "conf": 0.23658532125196066,
+        "ascs": [
+            "bf",
+            "bg",
+            "kb",
+            "lb",
+            "fg",
+            "kf",
+            "lf",
+            "kg",
+            "lg",
+            "kl"
+        ]
+    },
+    {
+        "margin": "bdgijo",
+        "conf": 0.24075043083707764,
+        "ascs": [
+            "bd",
+            "bg",
+            "jb",
+            "ob",
+            "dg",
+            "di",
+            "jd",
+            "gi",
+            "jg",
+            "og",
+            "ji",
+            "jo"
+        ]
+    },
+    {
+        "margin": "bcdhjk",
+        "conf": 0.24244203925968494,
+        "ascs": [
+            "bc",
+            "bd",
+            "bh",
+            "jb",
+            "kb",
+            "cd",
+            "jc",
+            "kc",
+            "dh",
+            "jd",
+            "kd",
+            "jh",
+            "kh",
+            "jk"
+        ]
+    },
+    {
+        "margin": "acejnp",
+        "conf": 0.24712310161258036,
+        "ascs": [
+            "ac",
+            "ae",
+            "aj",
+            "jc"
+        ]
+    },
+    {
+        "margin": "aegnop",
+        "conf": 0.24854761405842485,
+        "ascs": [
+            "ae",
+            "ag",
+            "ao",
+            "og"
+        ]
+    },
+    {
+        "margin": "begjlo",
+        "conf": 0.249410758100013,
+        "ascs": [
+            "be",
+            "bg",
+            "jb",
+            "lb",
+            "ob",
+            "jg",
+            "lg",
+            "og",
+            "jl",
+            "jo",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abcdnp",
+        "conf": 0.2521756368122953,
+        "ascs": [
+            "ab",
+            "ac",
+            "ad",
+            "bc",
+            "bd",
+            "cd",
+            "nd"
+        ]
+    },
+    {
+        "margin": "bcdgkl",
+        "conf": 0.25231448426533265,
+        "ascs": [
+            "bc",
+            "bd",
+            "bg",
+            "kb",
+            "lb",
+            "cd",
+            "cg",
+            "kc",
+            "lc",
+            "dg",
+            "kd",
+            "ld",
+            "kg",
+            "lg",
+            "kl"
+        ]
+    },
+    {
+        "margin": "bfjkln",
+        "conf": 0.2587805088838929,
+        "ascs": [
+            "bf",
+            "jb",
+            "kb",
+            "lb",
+            "jf",
+            "kf",
+            "lf",
+            "nf",
+            "jk",
+            "jl",
+            "kl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bfhnop",
+        "conf": 0.2595336244074336,
+        "ascs": [
+            "bf",
+            "bh",
+            "ob",
+            "fh",
+            "nf",
+            "of",
+            "nh"
+        ]
+    },
+    {
+        "margin": "abcehi",
+        "conf": 0.26097634426381927,
+        "ascs": [
+            "ab",
+            "ac",
+            "ae",
+            "ah",
+            "bc",
+            "be",
+            "bh",
+            "ci",
+            "hi"
+        ]
+    },
+    {
+        "margin": "bfgijn",
+        "conf": 0.2614565312295002,
+        "ascs": [
+            "bf",
+            "bg",
+            "jb",
+            "fg",
+            "fi",
+            "jf",
+            "nf",
+            "gi",
+            "jg",
+            "ji",
+            "ni"
+        ]
+    },
+    {
+        "margin": "aceinm",
+        "conf": 0.2641836988942343,
+        "ascs": [
+            "ac",
+            "ae",
+            "am",
+            "ci",
+            "mc",
+            "ni",
+            "mi",
+            "nm"
+        ]
+    },
+    {
+        "margin": "bclnmo",
+        "conf": 0.2652651343910928,
+        "ascs": [
+            "bc",
+            "lb",
+            "mb",
+            "ob",
+            "lc",
+            "mc",
+            "oc",
+            "ln",
+            "lm",
+            "lo",
+            "nm"
+        ]
+    },
+    {
+        "margin": "adefgp",
+        "conf": 0.2681436709515604,
+        "ascs": [
+            "ad",
+            "ae",
+            "af",
+            "ag",
+            "df",
+            "dg",
+            "fg"
+        ]
+    },
+    {
+        "margin": "bcgilo",
+        "conf": 0.26939925123172914,
+        "ascs": [
+            "bc",
+            "bg",
+            "lb",
+            "ob",
+            "cg",
+            "ci",
+            "lc",
+            "oc",
+            "gi",
+            "lg",
+            "og",
+            "li",
+            "lo"
+        ]
+    },
+    {
+        "margin": "aegiln",
+        "conf": 0.2715905617917087,
+        "ascs": [
+            "ae",
+            "ag",
+            "al",
+            "gi",
+            "lg",
+            "li",
+            "ni",
+            "ln"
+        ]
+    },
+    {
+        "margin": "acfimp",
+        "conf": 0.27175018138015566,
+        "ascs": [
+            "ac",
+            "af",
+            "am",
+            "cf",
+            "ci",
+            "mc",
+            "fi",
+            "mf",
+            "mi"
+        ]
+    },
+    {
+        "margin": "bgklmo",
+        "conf": 0.27244983591424876,
+        "ascs": [
+            "bg",
+            "kb",
+            "lb",
+            "mb",
+            "ob",
+            "kg",
+            "lg",
+            "mg",
+            "og",
+            "kl",
+            "km",
+            "lm",
+            "lo"
+        ]
+    },
+    {
+        "margin": "acfgnp",
+        "conf": 0.2735509244766346,
+        "ascs": [
+            "ac",
+            "af",
+            "ag",
+            "cf",
+            "cg",
+            "fg",
+            "nf"
+        ]
+    },
+    {
+        "margin": "acdfin",
+        "conf": 0.27552127017001826,
+        "ascs": [
+            "ac",
+            "ad",
+            "af",
+            "cd",
+            "cf",
+            "ci",
+            "df",
+            "di",
+            "nd",
+            "fi",
+            "nf",
+            "ni"
+        ]
+    },
+    {
+        "margin": "bcjklm",
+        "conf": 0.2793101290284224,
+        "ascs": [
+            "bc",
+            "jb",
+            "kb",
+            "lb",
+            "mb",
+            "jc",
+            "kc",
+            "lc",
+            "mc",
+            "jk",
+            "jl",
+            "jm",
+            "kl",
+            "km",
+            "lm"
+        ]
+    },
+    {
+        "margin": "bdfikl",
+        "conf": 0.28117557514463115,
+        "ascs": [
+            "bd",
+            "bf",
+            "kb",
+            "lb",
+            "df",
+            "di",
+            "kd",
+            "ld",
+            "fi",
+            "kf",
+            "lf",
+            "ki",
+            "li",
+            "kl"
+        ]
+    },
+    {
+        "margin": "abdegi",
+        "conf": 0.28325075846446485,
+        "ascs": [
+            "ab",
+            "ad",
+            "ae",
+            "ag",
+            "bd",
+            "be",
+            "bg",
+            "dg",
+            "di",
+            "gi"
+        ]
+    },
+    {
+        "margin": "adghlp",
+        "conf": 0.28415435978154013,
+        "ascs": [
+            "ad",
+            "ag",
+            "ah",
+            "al",
+            "dg",
+            "dh",
+            "ld",
+            "gh",
+            "lg",
+            "lh"
+        ]
+    },
+    {
+        "margin": "acghim",
+        "conf": 0.2853070494739656,
+        "ascs": [
+            "ac",
+            "ag",
+            "ah",
+            "am",
+            "cg",
+            "ci",
+            "mc",
+            "gh",
+            "gi",
+            "mg",
+            "hi",
+            "mh",
+            "mi"
+        ]
+    },
+    {
+        "margin": "afghin",
+        "conf": 0.28944748222567096,
+        "ascs": [
+            "af",
+            "ag",
+            "ah",
+            "fg",
+            "fh",
+            "fi",
+            "nf",
+            "gh",
+            "gi",
+            "hi",
+            "nh",
+            "ni"
+        ]
+    },
+    {
+        "margin": "afhijp",
+        "conf": 0.29845103179695653,
+        "ascs": [
+            "af",
+            "ah",
+            "aj",
+            "fh",
+            "fi",
+            "jf",
+            "hi",
+            "jh",
+            "ji"
+        ]
+    },
+    {
+        "margin": "abehln",
+        "conf": 0.2999042368231832,
+        "ascs": [
+            "ab",
+            "ae",
+            "ah",
+            "al",
+            "be",
+            "bh",
+            "lb",
+            "lh",
+            "nh",
+            "ln"
+        ]
+    },
+    {
+        "margin": "bdjklo",
+        "conf": 0.3011214852342201,
+        "ascs": [
+            "bd",
+            "jb",
+            "kb",
+            "lb",
+            "ob",
+            "jd",
+            "kd",
+            "ld",
+            "jk",
+            "jl",
+            "jo",
+            "kl",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abcgin",
+        "conf": 0.30379311656279967,
+        "ascs": [
+            "ab",
+            "ac",
+            "ag",
+            "bc",
+            "bg",
+            "cg",
+            "ci",
+            "gi",
+            "ni"
+        ]
+    },
+    {
+        "margin": "bdefio",
+        "conf": 0.30535960987563465,
+        "ascs": [
+            "bd",
+            "be",
+            "bf",
+            "ob",
+            "df",
+            "di",
+            "fi",
+            "of"
+        ]
+    },
+    {
+        "margin": "bcfgjl",
+        "conf": 0.3079783697432524,
+        "ascs": [
+            "bc",
+            "bf",
+            "bg",
+            "jb",
+            "lb",
+            "cf",
+            "cg",
+            "jc",
+            "lc",
+            "fg",
+            "jf",
+            "lf",
+            "jg",
+            "lg",
+            "jl"
+        ]
+    },
+    {
+        "margin": "bdfhmo",
+        "conf": 0.309138915163336,
+        "ascs": [
+            "bd",
+            "bf",
+            "bh",
+            "mb",
+            "ob",
+            "df",
+            "dh",
+            "md",
+            "fh",
+            "mf",
+            "of",
+            "mh"
+        ]
+    },
+    {
+        "margin": "abdfmp",
+        "conf": 0.3104715156179201,
+        "ascs": [
+            "ab",
+            "ad",
+            "af",
+            "am",
+            "bd",
+            "bf",
+            "mb",
+            "df",
+            "md",
+            "mf"
+        ]
+    },
+    {
+        "margin": "aeijlp",
+        "conf": 0.3180879812419011,
+        "ascs": [
+            "ae",
+            "aj",
+            "al",
+            "ji",
+            "li",
+            "jl"
+        ]
+    },
+    {
+        "margin": "adhnmo",
+        "conf": 0.3187107692371169,
+        "ascs": [
+            "ad",
+            "ah",
+            "am",
+            "ao",
+            "dh",
+            "nd",
+            "md",
+            "nh",
+            "mh",
+            "nm"
+        ]
+    },
+    {
+        "margin": "adghio",
+        "conf": 0.3197113798484522,
+        "ascs": [
+            "ad",
+            "ag",
+            "ah",
+            "ao",
+            "dg",
+            "dh",
+            "di",
+            "gh",
+            "gi",
+            "og",
+            "hi"
+        ]
+    },
+    {
+        "margin": "abdenm",
+        "conf": 0.3201362942160326,
+        "ascs": [
+            "ab",
+            "ad",
+            "ae",
+            "am",
+            "bd",
+            "be",
+            "mb",
+            "nd",
+            "md",
+            "nm"
+        ]
+    },
+    {
+        "margin": "acghjp",
+        "conf": 0.32113415657909905,
+        "ascs": [
+            "ac",
+            "ag",
+            "ah",
+            "aj",
+            "cg",
+            "jc",
+            "gh",
+            "jg",
+            "jh"
+        ]
+    },
+    {
+        "margin": "abdilp",
+        "conf": 0.3220393134416753,
+        "ascs": [
+            "ab",
+            "ad",
+            "al",
+            "bd",
+            "lb",
+            "di",
+            "ld",
+            "li"
+        ]
+    },
+    {
+        "margin": "adefjn",
+        "conf": 0.3235270972766834,
+        "ascs": [
+            "ad",
+            "ae",
+            "af",
+            "aj",
+            "df",
+            "jd",
+            "nd",
+            "jf",
+            "nf"
+        ]
+    },
+    {
+        "margin": "acefln",
+        "conf": 0.3267494510339626,
+        "ascs": [
+            "ac",
+            "ae",
+            "af",
+            "al",
+            "cf",
+            "lc",
+            "lf",
+            "nf",
+            "ln"
+        ]
+    },
+    {
+        "margin": "abfhlp",
+        "conf": 0.3292445919958593,
+        "ascs": [
+            "ab",
+            "af",
+            "ah",
+            "al",
+            "bf",
+            "bh",
+            "lb",
+            "fh",
+            "lf",
+            "lh"
+        ]
+    },
+    {
+        "margin": "bcfijk",
+        "conf": 0.33108151162650623,
+        "ascs": [
+            "bc",
+            "bf",
+            "jb",
+            "kb",
+            "cf",
+            "ci",
+            "jc",
+            "kc",
+            "fi",
+            "jf",
+            "kf",
+            "ji",
+            "ki",
+            "jk"
+        ]
+    },
+    {
+        "margin": "bdfkop",
+        "conf": 0.33706900161286646,
+        "ascs": [
+            "bd",
+            "bf",
+            "kb",
+            "ob",
+            "df",
+            "kd",
+            "kf",
+            "of"
+        ]
+    },
+    {
+        "margin": "aefjmp",
+        "conf": 0.33720858261221387,
+        "ascs": [
+            "ae",
+            "af",
+            "aj",
+            "am",
+            "jf",
+            "mf",
+            "jm"
+        ]
+    },
+    {
+        "margin": "acdhij",
+        "conf": 0.345358017388819,
+        "ascs": [
+            "ac",
+            "ad",
+            "ah",
+            "aj",
+            "cd",
+            "ci",
+            "jc",
+            "dh",
+            "di",
+            "jd",
+            "hi",
+            "jh",
+            "ji"
+        ]
+    },
+    {
+        "margin": "abefgh",
+        "conf": 0.34779838289511184,
+        "ascs": [
+            "ab",
+            "ae",
+            "af",
+            "ag",
+            "ah",
+            "be",
+            "bf",
+            "bg",
+            "bh",
+            "fg",
+            "fh",
+            "gh"
+        ]
+    },
+    {
+        "margin": "befjno",
+        "conf": 0.3482711296700932,
+        "ascs": [
+            "be",
+            "bf",
+            "jb",
+            "ob",
+            "jf",
+            "nf",
+            "of",
+            "jo"
+        ]
+    },
+    {
+        "margin": "aflnmp",
+        "conf": 0.34886375690126187,
+        "ascs": [
+            "af",
+            "al",
+            "am",
+            "lf",
+            "nf",
+            "mf",
+            "ln",
+            "lm",
+            "nm"
+        ]
+    },
+    {
+        "margin": "aeghjm",
+        "conf": 0.3501989218130299,
+        "ascs": [
+            "ae",
+            "ag",
+            "ah",
+            "aj",
+            "am",
+            "gh",
+            "jg",
+            "mg",
+            "jh",
+            "mh",
+            "jm"
+        ]
+    },
+    {
+        "margin": "befgop",
+        "conf": 0.35076406250847936,
+        "ascs": [
+            "be",
+            "bf",
+            "bg",
+            "ob",
+            "fg",
+            "of",
+            "og"
+        ]
+    },
+    {
+        "margin": "acehmo",
+        "conf": 0.35345496429563616,
+        "ascs": [
+            "ac",
+            "ae",
+            "ah",
+            "am",
+            "ao",
+            "mc",
+            "oc",
+            "mh"
+        ]
+    },
+    {
+        "margin": "abcdef",
+        "conf": 0.3537343535746594,
+        "ascs": [
+            "ab",
+            "ac",
+            "ad",
+            "ae",
+            "af",
+            "bc",
+            "bd",
+            "be",
+            "bf",
+            "cd",
+            "cf",
+            "df"
+        ]
+    },
+    {
+        "margin": "aefgnm",
+        "conf": 0.35473249614402536,
+        "ascs": [
+            "ae",
+            "af",
+            "ag",
+            "am",
+            "fg",
+            "nf",
+            "mf",
+            "mg",
+            "nm"
+        ]
+    },
+    {
+        "margin": "abdghm",
+        "conf": 0.36242521443372855,
+        "ascs": [
+            "ab",
+            "ad",
+            "ag",
+            "ah",
+            "am",
+            "bd",
+            "bg",
+            "bh",
+            "mb",
+            "dg",
+            "dh",
+            "md",
+            "gh",
+            "mg",
+            "mh"
+        ]
+    },
+    {
+        "margin": "abgiop",
+        "conf": 0.36753471665780524,
+        "ascs": [
+            "ab",
+            "ag",
+            "ao",
+            "bg",
+            "ob",
+            "gi",
+            "og"
+        ]
+    },
+    {
+        "margin": "abegjn",
+        "conf": 0.3693081415179871,
+        "ascs": [
+            "ab",
+            "ae",
+            "ag",
+            "aj",
+            "be",
+            "bg",
+            "jb",
+            "jg"
+        ]
+    },
+    {
+        "margin": "bcfino",
+        "conf": 0.36951133650452683,
+        "ascs": [
+            "bc",
+            "bf",
+            "ob",
+            "cf",
+            "ci",
+            "oc",
+            "fi",
+            "nf",
+            "of",
+            "ni"
+        ]
+    },
+    {
+        "margin": "adhjln",
+        "conf": 0.37078268224587646,
+        "ascs": [
+            "ad",
+            "ah",
+            "aj",
+            "al",
+            "dh",
+            "jd",
+            "ld",
+            "nd",
+            "jh",
+            "lh",
+            "nh",
+            "jl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "aghlnm",
+        "conf": 0.37254698484087695,
+        "ascs": [
+            "ag",
+            "ah",
+            "al",
+            "am",
+            "gh",
+            "lg",
+            "mg",
+            "lh",
+            "nh",
+            "mh",
+            "ln",
+            "lm",
+            "nm"
+        ]
+    },
+    {
+        "margin": "adhikp",
+        "conf": 0.37260477591095886,
+        "ascs": [
+            "ad",
+            "ah",
+            "ak",
+            "dh",
+            "di",
+            "kd",
+            "hi",
+            "kh",
+            "ki"
+        ]
+    },
+    {
+        "margin": "afgilp",
+        "conf": 0.3802626644286432,
+        "ascs": [
+            "af",
+            "ag",
+            "al",
+            "fg",
+            "fi",
+            "lf",
+            "gi",
+            "lg",
+            "li"
+        ]
+    },
+    {
+        "margin": "abnmop",
+        "conf": 0.3832304070368847,
+        "ascs": [
+            "ab",
+            "am",
+            "ao",
+            "mb",
+            "ob",
+            "nm"
+        ]
+    },
+    {
+        "margin": "abcijp",
+        "conf": 0.3847991032780696,
+        "ascs": [
+            "ab",
+            "ac",
+            "aj",
+            "bc",
+            "jb",
+            "ci",
+            "jc",
+            "ji"
+        ]
+    },
+    {
+        "margin": "acdgop",
+        "conf": 0.3854668488169758,
+        "ascs": [
+            "ac",
+            "ad",
+            "ag",
+            "ao",
+            "cd",
+            "cg",
+            "oc",
+            "dg",
+            "og"
+        ]
+    },
+    {
+        "margin": "ahjlmp",
+        "conf": 0.38655483847199196,
+        "ascs": [
+            "ah",
+            "aj",
+            "al",
+            "am",
+            "jh",
+            "lh",
+            "mh",
+            "jl",
+            "jm",
+            "lm"
+        ]
+    },
+    {
+        "margin": "bfknmo",
+        "conf": 0.3873411452712113,
+        "ascs": [
+            "bf",
+            "kb",
+            "mb",
+            "ob",
+            "kf",
+            "nf",
+            "mf",
+            "of",
+            "km",
+            "nm"
+        ]
+    },
+    {
+        "margin": "adegmo",
+        "conf": 0.3927296800379828,
+        "ascs": [
+            "ad",
+            "ae",
+            "ag",
+            "am",
+            "ao",
+            "dg",
+            "md",
+            "mg",
+            "og"
+        ]
+    },
+    {
+        "margin": "abeijm",
+        "conf": 0.3977062488013834,
+        "ascs": [
+            "ab",
+            "ae",
+            "aj",
+            "am",
+            "be",
+            "jb",
+            "mb",
+            "ji",
+            "mi",
+            "jm"
+        ]
+    },
+    {
+        "margin": "aefhno",
+        "conf": 0.4015731050701571,
+        "ascs": [
+            "ae",
+            "af",
+            "ah",
+            "ao",
+            "fh",
+            "nf",
+            "of",
+            "nh"
+        ]
+    },
+    {
+        "margin": "acdejm",
+        "conf": 0.40194796300859653,
+        "ascs": [
+            "ac",
+            "ad",
+            "ae",
+            "aj",
+            "am",
+            "cd",
+            "jc",
+            "mc",
+            "jd",
+            "md",
+            "jm"
+        ]
+    },
+    {
+        "margin": "abjlnp",
+        "conf": 0.4026245616982317,
+        "ascs": [
+            "ab",
+            "aj",
+            "al",
+            "jb",
+            "lb",
+            "jl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "acdgil",
+        "conf": 0.4036502749246583,
+        "ascs": [
+            "ac",
+            "ad",
+            "ag",
+            "al",
+            "cd",
+            "cg",
+            "ci",
+            "lc",
+            "dg",
+            "di",
+            "ld",
+            "gi",
+            "lg",
+            "li"
+        ]
+    },
+    {
+        "margin": "ahijmo",
+        "conf": 0.40744771138703095,
+        "ascs": [
+            "ah",
+            "aj",
+            "am",
+            "ao",
+            "hi",
+            "jh",
+            "mh",
+            "ji",
+            "mi",
+            "jm",
+            "jo"
+        ]
+    },
+    {
+        "margin": "aghjno",
+        "conf": 0.4125736570320958,
+        "ascs": [
+            "ag",
+            "ah",
+            "aj",
+            "ao",
+            "gh",
+            "jg",
+            "og",
+            "jh",
+            "nh",
+            "jo"
+        ]
+    },
+    {
+        "margin": "acehjl",
+        "conf": 0.41655733903815245,
+        "ascs": [
+            "ac",
+            "ae",
+            "ah",
+            "aj",
+            "al",
+            "jc",
+            "lc",
+            "jh",
+            "lh",
+            "jl"
+        ]
+    },
+    {
+        "margin": "ahjknp",
+        "conf": 0.41916440920009446,
+        "ascs": [
+            "ah",
+            "aj",
+            "ak",
+            "jh",
+            "kh",
+            "nh",
+            "jk"
+        ]
+    },
+    {
+        "margin": "adekmp",
+        "conf": 0.42112134975016696,
+        "ascs": [
+            "ad",
+            "ae",
+            "ak",
+            "am",
+            "kd",
+            "md",
+            "km"
+        ]
+    },
+    {
+        "margin": "adlmop",
+        "conf": 0.4212450049307338,
+        "ascs": [
+            "ad",
+            "al",
+            "am",
+            "ao",
+            "ld",
+            "md",
+            "lm",
+            "lo"
+        ]
+    },
+    {
+        "margin": "adknop",
+        "conf": 0.42182947591851583,
+        "ascs": [
+            "ad",
+            "ak",
+            "ao",
+            "kd",
+            "nd"
+        ]
+    },
+    {
+        "margin": "cdfgko",
+        "conf": 0.4222147954824655,
+        "ascs": [
+            "cd",
+            "cf",
+            "cg",
+            "kc",
+            "oc",
+            "df",
+            "dg",
+            "kd",
+            "fg",
+            "kf",
+            "of",
+            "kg",
+            "og"
+        ]
+    },
+    {
+        "margin": "aeghlo",
+        "conf": 0.4255197886538378,
+        "ascs": [
+            "ae",
+            "ag",
+            "ah",
+            "al",
+            "ao",
+            "gh",
+            "lg",
+            "og",
+            "lh",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abceno",
+        "conf": 0.4262438028937389,
+        "ascs": [
+            "ab",
+            "ac",
+            "ae",
+            "ao",
+            "bc",
+            "be",
+            "ob",
+            "oc"
+        ]
+    },
+    {
+        "margin": "adfiop",
+        "conf": 0.4266674741291908,
+        "ascs": [
+            "ad",
+            "af",
+            "ao",
+            "df",
+            "di",
+            "fi",
+            "of"
+        ]
+    },
+    {
+        "margin": "abilnm",
+        "conf": 0.42719939875835805,
+        "ascs": [
+            "ab",
+            "al",
+            "am",
+            "lb",
+            "mb",
+            "li",
+            "ni",
+            "mi",
+            "ln",
+            "lm",
+            "nm"
+        ]
+    },
+    {
+        "margin": "acdlnm",
+        "conf": 0.42780788275124,
+        "ascs": [
+            "ac",
+            "ad",
+            "al",
+            "am",
+            "cd",
+            "lc",
+            "mc",
+            "ld",
+            "nd",
+            "md",
+            "ln",
+            "lm",
+            "nm"
+        ]
+    },
+    {
+        "margin": "aehklp",
+        "conf": 0.42927107449569235,
+        "ascs": [
+            "ae",
+            "ah",
+            "ak",
+            "al",
+            "kh",
+            "lh",
+            "kl"
+        ]
+    },
+    {
+        "margin": "acdfgm",
+        "conf": 0.43706276123528726,
+        "ascs": [
+            "ac",
+            "ad",
+            "af",
+            "ag",
+            "am",
+            "cd",
+            "cf",
+            "cg",
+            "mc",
+            "df",
+            "dg",
+            "md",
+            "fg",
+            "mf",
+            "mg"
+        ]
+    },
+    {
+        "margin": "abfgim",
+        "conf": 0.44028435770577257,
+        "ascs": [
+            "ab",
+            "af",
+            "ag",
+            "am",
+            "bf",
+            "bg",
+            "mb",
+            "fg",
+            "fi",
+            "mf",
+            "gi",
+            "mg",
+            "mi"
+        ]
+    },
+    {
+        "margin": "aehiko",
+        "conf": 0.4424898029025849,
+        "ascs": [
+            "ae",
+            "ah",
+            "ak",
+            "ao",
+            "hi",
+            "kh",
+            "ki"
+        ]
+    },
+    {
+        "margin": "abcdhl",
+        "conf": 0.4428461823877925,
+        "ascs": [
+            "ab",
+            "ac",
+            "ad",
+            "ah",
+            "al",
+            "bc",
+            "bd",
+            "bh",
+            "lb",
+            "cd",
+            "lc",
+            "dh",
+            "ld",
+            "lh"
+        ]
+    },
+    {
+        "margin": "bcdfjo",
+        "conf": 0.4475495725314978,
+        "ascs": [
+            "bc",
+            "bd",
+            "bf",
+            "jb",
+            "ob",
+            "cd",
+            "cf",
+            "jc",
+            "oc",
+            "df",
+            "jd",
+            "jf",
+            "of",
+            "jo"
+        ]
+    },
+    {
+        "margin": "acfghl",
+        "conf": 0.4485358728822273,
+        "ascs": [
+            "ac",
+            "af",
+            "ag",
+            "ah",
+            "al",
+            "cf",
+            "cg",
+            "lc",
+            "fg",
+            "fh",
+            "lf",
+            "gh",
+            "lg",
+            "lh"
+        ]
+    },
+    {
+        "margin": "adegjl",
+        "conf": 0.45290781573404093,
+        "ascs": [
+            "ad",
+            "ae",
+            "ag",
+            "aj",
+            "al",
+            "dg",
+            "jd",
+            "ld",
+            "jg",
+            "lg",
+            "jl"
+        ]
+    },
+    {
+        "margin": "bcfgmo",
+        "conf": 0.45303337481255374,
+        "ascs": [
+            "bc",
+            "bf",
+            "bg",
+            "mb",
+            "ob",
+            "cf",
+            "cg",
+            "mc",
+            "oc",
+            "fg",
+            "mf",
+            "of",
+            "mg",
+            "og"
+        ]
+    },
+    {
+        "margin": "acgnmo",
+        "conf": 0.4541981655462982,
+        "ascs": [
+            "ac",
+            "ag",
+            "am",
+            "ao",
+            "cg",
+            "mc",
+            "oc",
+            "mg",
+            "og",
+            "nm"
+        ]
+    },
+    {
+        "margin": "acdjno",
+        "conf": 0.4549720179748992,
+        "ascs": [
+            "ac",
+            "ad",
+            "aj",
+            "ao",
+            "cd",
+            "jc",
+            "oc",
+            "jd",
+            "nd",
+            "jo"
+        ]
+    },
+    {
+        "margin": "acgikp",
+        "conf": 0.45586286220518046,
+        "ascs": [
+            "ac",
+            "ag",
+            "ak",
+            "cg",
+            "ci",
+            "kc",
+            "gi",
+            "kg",
+            "ki"
+        ]
+    },
+    {
+        "margin": "acgjln",
+        "conf": 0.4576873435283867,
+        "ascs": [
+            "ac",
+            "ag",
+            "aj",
+            "al",
+            "cg",
+            "jc",
+            "lc",
+            "jg",
+            "lg",
+            "jl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "ahiknm",
+        "conf": 0.4602540616555496,
+        "ascs": [
+            "ah",
+            "ak",
+            "am",
+            "hi",
+            "kh",
+            "nh",
+            "mh",
+            "ki",
+            "ni",
+            "mi",
+            "km",
+            "nm"
+        ]
+    },
+    {
+        "margin": "agklnp",
+        "conf": 0.46363232389934295,
+        "ascs": [
+            "ag",
+            "ak",
+            "al",
+            "kg",
+            "lg",
+            "kl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "abijno",
+        "conf": 0.4653656308441536,
+        "ascs": [
+            "ab",
+            "aj",
+            "ao",
+            "jb",
+            "ob",
+            "ji",
+            "ni",
+            "jo"
+        ]
+    },
+    {
+        "margin": "afijln",
+        "conf": 0.46588947760380717,
+        "ascs": [
+            "af",
+            "aj",
+            "al",
+            "fi",
+            "jf",
+            "lf",
+            "nf",
+            "ji",
+            "li",
+            "ni",
+            "jl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "acknmp",
+        "conf": 0.466459671857769,
+        "ascs": [
+            "ac",
+            "ak",
+            "am",
+            "kc",
+            "mc",
+            "km",
+            "nm"
+        ]
+    },
+    {
+        "margin": "adfghj",
+        "conf": 0.4675700310945991,
+        "ascs": [
+            "ad",
+            "af",
+            "ag",
+            "ah",
+            "aj",
+            "df",
+            "dg",
+            "dh",
+            "jd",
+            "fg",
+            "fh",
+            "jf",
+            "gh",
+            "jg",
+            "jh"
+        ]
+    },
+    {
+        "margin": "abdfij",
+        "conf": 0.4703708401266651,
+        "ascs": [
+            "ab",
+            "ad",
+            "af",
+            "aj",
+            "bd",
+            "bf",
+            "jb",
+            "df",
+            "di",
+            "jd",
+            "fi",
+            "jf",
+            "ji"
+        ]
+    },
+    {
+        "margin": "acdelo",
+        "conf": 0.4730494395098182,
+        "ascs": [
+            "ac",
+            "ad",
+            "ae",
+            "al",
+            "ao",
+            "cd",
+            "lc",
+            "oc",
+            "ld",
+            "lo"
+        ]
+    },
+    {
+        "margin": "aegikm",
+        "conf": 0.4737992960100166,
+        "ascs": [
+            "ae",
+            "ag",
+            "ak",
+            "am",
+            "gi",
+            "kg",
+            "mg",
+            "ki",
+            "mi",
+            "km"
+        ]
+    },
+    {
+        "margin": "bfghjo",
+        "conf": 0.47638272164025625,
+        "ascs": [
+            "bf",
+            "bg",
+            "bh",
+            "jb",
+            "ob",
+            "fg",
+            "fh",
+            "jf",
+            "of",
+            "gh",
+            "jg",
+            "og",
+            "jh",
+            "jo"
+        ]
+    },
+    {
+        "margin": "acjmop",
+        "conf": 0.4773546993007284,
+        "ascs": [
+            "ac",
+            "aj",
+            "am",
+            "ao",
+            "jc",
+            "mc",
+            "oc",
+            "jm",
+            "jo"
+        ]
+    },
+    {
+        "margin": "abeilo",
+        "conf": 0.48046272889986097,
+        "ascs": [
+            "ab",
+            "ae",
+            "al",
+            "ao",
+            "be",
+            "lb",
+            "ob",
+            "li",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abcfil",
+        "conf": 0.4864127283162217,
+        "ascs": [
+            "ab",
+            "ac",
+            "af",
+            "al",
+            "bc",
+            "bf",
+            "lb",
+            "cf",
+            "ci",
+            "lc",
+            "fi",
+            "lf",
+            "li"
+        ]
+    },
+    {
+        "margin": "bfgiko",
+        "conf": 0.48693460435184055,
+        "ascs": [
+            "bf",
+            "bg",
+            "kb",
+            "ob",
+            "fg",
+            "fi",
+            "kf",
+            "of",
+            "gi",
+            "kg",
+            "og",
+            "ki"
+        ]
+    },
+    {
+        "margin": "abfgjp",
+        "conf": 0.4942296639839675,
+        "ascs": [
+            "ab",
+            "af",
+            "ag",
+            "aj",
+            "bf",
+            "bg",
+            "jb",
+            "fg",
+            "jf",
+            "jg"
+        ]
+    },
+    {
+        "margin": "aegjkp",
+        "conf": 0.5015929329916682,
+        "ascs": [
+            "ae",
+            "ag",
+            "aj",
+            "ak",
+            "jg",
+            "kg",
+            "jk"
+        ]
+    },
+    {
+        "margin": "agilmo",
+        "conf": 0.5036656290205735,
+        "ascs": [
+            "ag",
+            "al",
+            "am",
+            "ao",
+            "gi",
+            "lg",
+            "mg",
+            "og",
+            "li",
+            "mi",
+            "lm",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abchkp",
+        "conf": 0.5097493819322508,
+        "ascs": [
+            "ab",
+            "ac",
+            "ah",
+            "ak",
+            "bc",
+            "bh",
+            "kb",
+            "kc",
+            "kh"
+        ]
+    },
+    {
+        "margin": "acekop",
+        "conf": 0.5127592504036094,
+        "ascs": [
+            "ac",
+            "ae",
+            "ak",
+            "ao",
+            "kc",
+            "oc"
+        ]
+    },
+    {
+        "margin": "acijlm",
+        "conf": 0.5129073752247059,
+        "ascs": [
+            "ac",
+            "aj",
+            "al",
+            "am",
+            "ci",
+            "jc",
+            "lc",
+            "mc",
+            "ji",
+            "li",
+            "mi",
+            "jl",
+            "jm",
+            "lm"
+        ]
+    },
+    {
+        "margin": "acdfho",
+        "conf": 0.5162700185319156,
+        "ascs": [
+            "ac",
+            "ad",
+            "af",
+            "ah",
+            "ao",
+            "cd",
+            "cf",
+            "oc",
+            "df",
+            "dh",
+            "fh",
+            "of"
+        ]
+    },
+    {
+        "margin": "agikno",
+        "conf": 0.5172579577426482,
+        "ascs": [
+            "ag",
+            "ak",
+            "ao",
+            "gi",
+            "kg",
+            "og",
+            "ki",
+            "ni"
+        ]
+    },
+    {
+        "margin": "abcgho",
+        "conf": 0.5215174432877466,
+        "ascs": [
+            "ab",
+            "ac",
+            "ag",
+            "ah",
+            "ao",
+            "bc",
+            "bg",
+            "bh",
+            "ob",
+            "cg",
+            "oc",
+            "gh",
+            "og"
+        ]
+    },
+    {
+        "margin": "aiklmp",
+        "conf": 0.5244398485477464,
+        "ascs": [
+            "ak",
+            "al",
+            "am",
+            "ki",
+            "li",
+            "mi",
+            "kl",
+            "km",
+            "lm"
+        ]
+    },
+    {
+        "margin": "acfhik",
+        "conf": 0.5264925100626999,
+        "ascs": [
+            "ac",
+            "af",
+            "ah",
+            "ak",
+            "cf",
+            "ci",
+            "kc",
+            "fh",
+            "fi",
+            "kf",
+            "hi",
+            "kh",
+            "ki"
+        ]
+    },
+    {
+        "margin": "abehkm",
+        "conf": 0.5276338515893352,
+        "ascs": [
+            "ab",
+            "ae",
+            "ah",
+            "ak",
+            "am",
+            "be",
+            "bh",
+            "kb",
+            "mb",
+            "kh",
+            "mh",
+            "km"
+        ]
+    },
+    {
+        "margin": "aeflop",
+        "conf": 0.5281186771994947,
+        "ascs": [
+            "ae",
+            "af",
+            "al",
+            "ao",
+            "lf",
+            "of",
+            "lo"
+        ]
+    },
+    {
+        "margin": "afhkln",
+        "conf": 0.5296036801608799,
+        "ascs": [
+            "af",
+            "ah",
+            "ak",
+            "al",
+            "fh",
+            "kf",
+            "lf",
+            "nf",
+            "kh",
+            "lh",
+            "nh",
+            "kl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "abdgkp",
+        "conf": 0.530152494632232,
+        "ascs": [
+            "ab",
+            "ad",
+            "ag",
+            "ak",
+            "bd",
+            "bg",
+            "kb",
+            "dg",
+            "kd",
+            "kg"
+        ]
+    },
+    {
+        "margin": "adikln",
+        "conf": 0.5334240302687699,
+        "ascs": [
+            "ad",
+            "ak",
+            "al",
+            "di",
+            "kd",
+            "ld",
+            "nd",
+            "ki",
+            "li",
+            "ni",
+            "kl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "afinmo",
+        "conf": 0.5346265906384047,
+        "ascs": [
+            "af",
+            "am",
+            "ao",
+            "fi",
+            "nf",
+            "mf",
+            "of",
+            "ni",
+            "mi",
+            "nm"
+        ]
+    },
+    {
+        "margin": "afjnop",
+        "conf": 0.5378862556005307,
+        "ascs": [
+            "af",
+            "aj",
+            "ao",
+            "jf",
+            "nf",
+            "of",
+            "jo"
+        ]
+    },
+    {
+        "margin": "adijlo",
+        "conf": 0.5380819310329077,
+        "ascs": [
+            "ad",
+            "aj",
+            "al",
+            "ao",
+            "di",
+            "jd",
+            "ld",
+            "ji",
+            "li",
+            "jl",
+            "jo",
+            "lo"
+        ]
+    },
+    {
+        "margin": "adeijk",
+        "conf": 0.5385646192535559,
+        "ascs": [
+            "ad",
+            "ae",
+            "aj",
+            "ak",
+            "di",
+            "jd",
+            "kd",
+            "ji",
+            "ki",
+            "jk"
+        ]
+    },
+    {
+        "margin": "abfhio",
+        "conf": 0.5388022442866478,
+        "ascs": [
+            "ab",
+            "af",
+            "ah",
+            "ao",
+            "bf",
+            "bh",
+            "ob",
+            "fh",
+            "fi",
+            "of",
+            "hi"
+        ]
+    },
+    {
+        "margin": "abcdgj",
+        "conf": 0.5422621338905028,
+        "ascs": [
+            "ab",
+            "ac",
+            "ad",
+            "ag",
+            "aj",
+            "bc",
+            "bd",
+            "bg",
+            "jb",
+            "cd",
+            "cg",
+            "jc",
+            "dg",
+            "jd",
+            "jg"
+        ]
+    },
+    {
+        "margin": "adfknm",
+        "conf": 0.5485488078939116,
+        "ascs": [
+            "ad",
+            "af",
+            "ak",
+            "am",
+            "df",
+            "kd",
+            "nd",
+            "md",
+            "kf",
+            "nf",
+            "mf",
+            "km",
+            "nm"
+        ]
+    },
+    {
+        "margin": "agjlop",
+        "conf": 0.5501761444682722,
+        "ascs": [
+            "ag",
+            "aj",
+            "al",
+            "ao",
+            "jg",
+            "lg",
+            "og",
+            "jl",
+            "jo",
+            "lo"
+        ]
+    },
+    {
+        "margin": "acefkm",
+        "conf": 0.5513165624826886,
+        "ascs": [
+            "ac",
+            "ae",
+            "af",
+            "ak",
+            "am",
+            "cf",
+            "kc",
+            "mc",
+            "kf",
+            "mf",
+            "km"
+        ]
+    },
+    {
+        "margin": "abefjl",
+        "conf": 0.5517300952114621,
+        "ascs": [
+            "ab",
+            "ae",
+            "af",
+            "aj",
+            "al",
+            "be",
+            "bf",
+            "jb",
+            "lb",
+            "jf",
+            "lf",
+            "jl"
+        ]
+    },
+    {
+        "margin": "abhkno",
+        "conf": 0.5547708437741469,
+        "ascs": [
+            "ab",
+            "ah",
+            "ak",
+            "ao",
+            "bh",
+            "kb",
+            "ob",
+            "kh",
+            "nh"
+        ]
+    },
+    {
+        "margin": "abdfhk",
+        "conf": 0.5596255997986448,
+        "ascs": [
+            "ab",
+            "ad",
+            "af",
+            "ah",
+            "ak",
+            "bd",
+            "bf",
+            "bh",
+            "kb",
+            "df",
+            "dh",
+            "kd",
+            "fh",
+            "kf",
+            "kh"
+        ]
+    },
+    {
+        "margin": "abhlmo",
+        "conf": 0.5612156534118745,
+        "ascs": [
+            "ab",
+            "ah",
+            "al",
+            "am",
+            "ao",
+            "bh",
+            "lb",
+            "mb",
+            "ob",
+            "lh",
+            "mh",
+            "lm",
+            "lo"
+        ]
+    },
+    {
+        "margin": "acijkn",
+        "conf": 0.563846808812855,
+        "ascs": [
+            "ac",
+            "aj",
+            "ak",
+            "ci",
+            "jc",
+            "kc",
+            "ji",
+            "ki",
+            "ni",
+            "jk"
+        ]
+    },
+    {
+        "margin": "aijkop",
+        "conf": 0.5643525461071154,
+        "ascs": [
+            "aj",
+            "ak",
+            "ao",
+            "ji",
+            "ki",
+            "jk",
+            "jo"
+        ]
+    },
+    {
+        "margin": "aceikl",
+        "conf": 0.5655706805430017,
+        "ascs": [
+            "ac",
+            "ae",
+            "ak",
+            "al",
+            "ci",
+            "kc",
+            "lc",
+            "ki",
+            "li",
+            "kl"
+        ]
+    },
+    {
+        "margin": "aefhjk",
+        "conf": 0.5702066801935293,
+        "ascs": [
+            "ae",
+            "af",
+            "ah",
+            "aj",
+            "ak",
+            "fh",
+            "jf",
+            "kf",
+            "jh",
+            "kh",
+            "jk"
+        ]
+    },
+    {
+        "margin": "abgknm",
+        "conf": 0.5918286580006713,
+        "ascs": [
+            "ab",
+            "ag",
+            "ak",
+            "am",
+            "bg",
+            "kb",
+            "mb",
+            "kg",
+            "mg",
+            "km",
+            "nm"
+        ]
+    },
+    {
+        "margin": "adhjkm",
+        "conf": 0.5959121395278829,
+        "ascs": [
+            "ad",
+            "ah",
+            "aj",
+            "ak",
+            "am",
+            "dh",
+            "jd",
+            "kd",
+            "md",
+            "jh",
+            "kh",
+            "mh",
+            "jk",
+            "jm",
+            "km"
+        ]
+    },
+    {
+        "margin": "abdjlm",
+        "conf": 0.5975490745495128,
+        "ascs": [
+            "ab",
+            "ad",
+            "aj",
+            "al",
+            "am",
+            "bd",
+            "jb",
+            "lb",
+            "mb",
+            "jd",
+            "ld",
+            "md",
+            "jl",
+            "jm",
+            "lm"
+        ]
+    },
+    {
+        "margin": "abcfop",
+        "conf": 0.6136358363519125,
+        "ascs": [
+            "ab",
+            "ac",
+            "af",
+            "ao",
+            "bc",
+            "bf",
+            "ob",
+            "cf",
+            "oc",
+            "of"
+        ]
+    },
+    {
+        "margin": "abefmo",
+        "conf": 0.6179099979782041,
+        "ascs": [
+            "ab",
+            "ae",
+            "af",
+            "am",
+            "ao",
+            "be",
+            "bf",
+            "mb",
+            "ob",
+            "mf",
+            "of"
+        ]
+    },
+    {
+        "margin": "adfgik",
+        "conf": 0.6198505423073228,
+        "ascs": [
+            "ad",
+            "af",
+            "ag",
+            "ak",
+            "df",
+            "dg",
+            "di",
+            "kd",
+            "fg",
+            "fi",
+            "kf",
+            "gi",
+            "kg",
+            "ki"
+        ]
+    },
+    {
+        "margin": "abdjkn",
+        "conf": 0.6224281424388579,
+        "ascs": [
+            "ab",
+            "ad",
+            "aj",
+            "ak",
+            "bd",
+            "jb",
+            "kb",
+            "jd",
+            "kd",
+            "nd",
+            "jk"
+        ]
+    },
+    {
+        "margin": "adhklo",
+        "conf": 0.6229146545264109,
+        "ascs": [
+            "ad",
+            "ah",
+            "ak",
+            "al",
+            "ao",
+            "dh",
+            "kd",
+            "ld",
+            "kh",
+            "lh",
+            "kl",
+            "lo"
+        ]
+    },
+    {
+        "margin": "achklm",
+        "conf": 0.6264891168616509,
+        "ascs": [
+            "ac",
+            "ah",
+            "ak",
+            "al",
+            "am",
+            "kc",
+            "lc",
+            "mc",
+            "kh",
+            "lh",
+            "mh",
+            "kl",
+            "km",
+            "lm"
+        ]
+    },
+    {
+        "margin": "afgjlm",
+        "conf": 0.6308512185761821,
+        "ascs": [
+            "af",
+            "ag",
+            "aj",
+            "al",
+            "am",
+            "fg",
+            "jf",
+            "lf",
+            "mf",
+            "jg",
+            "lg",
+            "mg",
+            "jl",
+            "jm",
+            "lm"
+        ]
+    },
+    {
+        "margin": "abjkmp",
+        "conf": 0.6377556704038039,
+        "ascs": [
+            "ab",
+            "aj",
+            "ak",
+            "am",
+            "jb",
+            "kb",
+            "mb",
+            "jk",
+            "jm",
+            "km"
+        ]
+    },
+    {
+        "margin": "abdekl",
+        "conf": 0.6391668645290732,
+        "ascs": [
+            "ab",
+            "ad",
+            "ae",
+            "ak",
+            "al",
+            "bd",
+            "be",
+            "kb",
+            "lb",
+            "kd",
+            "ld",
+            "kl"
+        ]
+    },
+    {
+        "margin": "aefgkl",
+        "conf": 0.6495948346752756,
+        "ascs": [
+            "ae",
+            "af",
+            "ag",
+            "ak",
+            "al",
+            "fg",
+            "kf",
+            "lf",
+            "kg",
+            "lg",
+            "kl"
+        ]
+    },
+    {
+        "margin": "adgklm",
+        "conf": 0.6618985885643867,
+        "ascs": [
+            "ad",
+            "ag",
+            "ak",
+            "al",
+            "am",
+            "dg",
+            "kd",
+            "ld",
+            "md",
+            "kg",
+            "lg",
+            "mg",
+            "kl",
+            "km",
+            "lm"
+        ]
+    },
+    {
+        "margin": "abgjmo",
+        "conf": 0.6626732785677757,
+        "ascs": [
+            "ab",
+            "ag",
+            "aj",
+            "am",
+            "ao",
+            "bg",
+            "jb",
+            "mb",
+            "ob",
+            "jg",
+            "mg",
+            "og",
+            "jm",
+            "jo"
+        ]
+    },
+    {
+        "margin": "abckln",
+        "conf": 0.6650981005768652,
+        "ascs": [
+            "ab",
+            "ac",
+            "ak",
+            "al",
+            "bc",
+            "kb",
+            "lb",
+            "kc",
+            "lc",
+            "kl",
+            "ln"
+        ]
+    },
+    {
+        "margin": "afgjkn",
+        "conf": 0.6712348725204318,
+        "ascs": [
+            "af",
+            "ag",
+            "aj",
+            "ak",
+            "fg",
+            "jf",
+            "kf",
+            "nf",
+            "jg",
+            "kg",
+            "jk"
+        ]
+    },
+    {
+        "margin": "afijkm",
+        "conf": 0.6847682420670514,
+        "ascs": [
+            "af",
+            "aj",
+            "ak",
+            "am",
+            "fi",
+            "jf",
+            "kf",
+            "mf",
+            "ji",
+            "ki",
+            "mi",
+            "jk",
+            "jm",
+            "km"
+        ]
+    },
+    {
+        "margin": "adfjmo",
+        "conf": 0.6858670469490857,
+        "ascs": [
+            "ad",
+            "af",
+            "aj",
+            "am",
+            "ao",
+            "df",
+            "jd",
+            "md",
+            "jf",
+            "mf",
+            "of",
+            "jm",
+            "jo"
+        ]
+    },
+    {
+        "margin": "abegko",
+        "conf": 0.6865260885875859,
+        "ascs": [
+            "ab",
+            "ae",
+            "ag",
+            "ak",
+            "ao",
+            "be",
+            "bg",
+            "kb",
+            "ob",
+            "kg",
+            "og"
+        ]
+    },
+    {
+        "margin": "acgjkm",
+        "conf": 0.6921351477980358,
+        "ascs": [
+            "ac",
+            "ag",
+            "aj",
+            "ak",
+            "am",
+            "cg",
+            "jc",
+            "kc",
+            "mc",
+            "jg",
+            "kg",
+            "mg",
+            "jk",
+            "jm",
+            "km"
+        ]
+    },
+    {
+        "margin": "adefko",
+        "conf": 0.6974427442843683,
+        "ascs": [
+            "ad",
+            "ae",
+            "af",
+            "ak",
+            "ao",
+            "df",
+            "kd",
+            "kf",
+            "of"
+        ]
+    },
+    {
+        "margin": "achjko",
+        "conf": 0.699453018955283,
+        "ascs": [
+            "ac",
+            "ah",
+            "aj",
+            "ak",
+            "ao",
+            "jc",
+            "kc",
+            "oc",
+            "jh",
+            "kh",
+            "jk",
+            "jo"
+        ]
+    },
+    {
+        "margin": "abklop",
+        "conf": 0.7111688629056502,
+        "ascs": [
+            "ab",
+            "ak",
+            "al",
+            "ao",
+            "kb",
+            "lb",
+            "ob",
+            "kl",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abcejk",
+        "conf": 0.7171712883343307,
+        "ascs": [
+            "ab",
+            "ac",
+            "ae",
+            "aj",
+            "ak",
+            "bc",
+            "be",
+            "jb",
+            "kb",
+            "jc",
+            "kc",
+            "jk"
+        ]
+    },
+    {
+        "margin": "acflmo",
+        "conf": 0.7304899193816355,
+        "ascs": [
+            "ac",
+            "af",
+            "al",
+            "am",
+            "ao",
+            "cf",
+            "lc",
+            "mc",
+            "oc",
+            "lf",
+            "mf",
+            "of",
+            "lm",
+            "lo"
+        ]
+    },
+    {
+        "margin": "afhjlo",
+        "conf": 0.7337037012397882,
+        "ascs": [
+            "af",
+            "ah",
+            "aj",
+            "al",
+            "ao",
+            "fh",
+            "jf",
+            "lf",
+            "of",
+            "jh",
+            "lh",
+            "jl",
+            "jo",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abcfgk",
+        "conf": 0.7374038823040323,
+        "ascs": [
+            "ab",
+            "ac",
+            "af",
+            "ag",
+            "ak",
+            "bc",
+            "bf",
+            "bg",
+            "kb",
+            "cf",
+            "cg",
+            "kc",
+            "fg",
+            "kf",
+            "kg"
+        ]
+    },
+    {
+        "margin": "adgjko",
+        "conf": 0.737706274421253,
+        "ascs": [
+            "ad",
+            "ag",
+            "aj",
+            "ak",
+            "ao",
+            "dg",
+            "jd",
+            "kd",
+            "jg",
+            "kg",
+            "og",
+            "jk",
+            "jo"
+        ]
+    },
+    {
+        "margin": "acfkno",
+        "conf": 0.7448717009245663,
+        "ascs": [
+            "ac",
+            "af",
+            "ak",
+            "ao",
+            "cf",
+            "kc",
+            "oc",
+            "kf",
+            "nf",
+            "of"
+        ]
+    },
+    {
+        "margin": "abfklm",
+        "conf": 0.7516737316521541,
+        "ascs": [
+            "ab",
+            "af",
+            "ak",
+            "al",
+            "am",
+            "bf",
+            "kb",
+            "lb",
+            "mb",
+            "kf",
+            "lf",
+            "mf",
+            "kl",
+            "km",
+            "lm"
+        ]
+    },
+    {
+        "margin": "acgklo",
+        "conf": 0.7831297887882807,
+        "ascs": [
+            "ac",
+            "ag",
+            "ak",
+            "al",
+            "ao",
+            "cg",
+            "kc",
+            "lc",
+            "oc",
+            "kg",
+            "lg",
+            "og",
+            "kl",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abcjlo",
+        "conf": 0.7845399610743903,
+        "ascs": [
+            "ab",
+            "ac",
+            "aj",
+            "al",
+            "ao",
+            "bc",
+            "jb",
+            "lb",
+            "ob",
+            "jc",
+            "lc",
+            "oc",
+            "jl",
+            "jo",
+            "lo"
+        ]
+    },
+    {
+        "margin": "afiklo",
+        "conf": 0.8565964368977069,
+        "ascs": [
+            "af",
+            "ak",
+            "al",
+            "ao",
+            "fi",
+            "kf",
+            "lf",
+            "of",
+            "ki",
+            "li",
+            "kl",
+            "lo"
+        ]
+    },
+    {
+        "margin": "abfjko",
+        "conf": 1.0205305454134703,
+        "ascs": [
+            "ab",
+            "af",
+            "aj",
+            "ak",
+            "ao",
+            "bf",
+            "jb",
+            "kb",
+            "ob",
+            "jf",
+            "kf",
+            "of",
+            "jk",
+            "jo"
+        ]
+    }
+]

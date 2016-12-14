@@ -11,8 +11,6 @@ const binomial = require('./lib/binomial');
 const _ = require('lodash');
 const DP = require('./lib/DP');
 
-var marginTables = require('./marginal/12-8.json');
-
 var set_S = {};//solution map
 
 /*
@@ -84,9 +82,11 @@ var divideLevel = function (sets, level) {
             _Divide[i] = sets;
         }
     }
+    _Divide[level] = _.filter(_Divide[level], o=>{
+        return o.conf > 0.8;
+    })
     return _Divide;
 }
-
 /*
 **Sample sets
 **Input: level
@@ -189,33 +189,38 @@ function updateSetOfSolution(s) {
   Output: The B with the min cost
 **
 */
-function CMC_greedy(T, C, Cs, n, cov) {
+function CMC_greedy(T, C, Cs, n) {
     var Ss = [];
     var MBen_s = getMBen(Cs);
     var level = math.fix(math.log(n, 2));
-    const divide_set = divideLevel(C, level);
-    const sample_set = SampleSet(level, n);
-    //console.log(divide_set);
-    //
+    var divide_set = divideLevel(C, level);
+    var sample_set = SampleSet(level, n);
+    
     for (var i = level; i >= 1; i--) {
         var sample = sample_set[i];
         for (var j = 0; j < sample; j++) {
             if (divide_set[i].length != 0) {
                 //console.time("getMaxMBenInDivideSet");
                 var q = getMaxMBenInDivideSet(divide_set[i], MBen_s, sample);
+                //console.log(q.conf*MBen_s[q.margin]);
                 //console.timeEnd("getMaxMBenInDivideSet");
-                if (q != false) {
+                if (q != false) {                            
+
+                    // if (q.conf*MBen_s[q.margin]*MBen_s[q.margin] < 0.65*mben*mben) {
+                    //     return S;
+                    // }
+                    if(Math.floor(MBen_s[q.margin]*q.conf) < Math.floor(0.9*mben)){
+                        return S;
+                    }
+                    
                     //join to solution set
                     S.push(q.margin);
                     Ss.push(q);
+                    sumConf += q.conf;
 
                     updateSetOfSolution(q.margin);
 
                     console.log(`${q.margin}:${q.conf}:${S.length}`);
-
-                    if (q.conf < 0.4) {
-                        return S;
-                    }
 
                     //delete from Cs
                     var index_c = Cs.indexOf(q.margin);
@@ -243,25 +248,33 @@ function CMC_greedy(T, C, Cs, n, cov) {
 }
 
 //test for CMC
-const string = 'abcdefghij';
-const k = 6;
-const cov = 0.8;
+const string = 'abcdefghijklnm';
+const k = 8;
+const mben = (Math.pow(2, 8)-1)/2;
+
+//association
+var margin_conf = require('./association/margin14-8_conf.json');
+var margin_conf_arr = require('./association/margin14-8_conf_arr.json');
+
 var n = binomial.Binomial(k, string.length);
 var T = collection.getSubsetOfMarginTable(string);
 var Cs = getMarginalTable_k(T, k);
-
-//association
-const margin_conf = require('./association/margin10-6_conf.json');
-const margin_conf_arr = require('./association/margin10-6_conf_arr.json');
-
+var sumConf = 0;
 var S = [];
 var S_set = new Set();
 
+// var arr = _.filter(margin_conf_arr, o=>{
+//     return o.conf > 1.2;
+// })
+// console.log(arr.length);
+
 console.time('CMC_greedy_asc time');
-const solution = CMC_greedy(T, margin_conf_arr, Cs, n, cov);
+const solution = CMC_greedy(T, margin_conf_arr, Cs, n);
 console.timeEnd('CMC_greedy_asc time');
 console.log('CMC_greedy_asc process memory:' + process.memoryUsage().heapUsed / (1024 * 1024));
 console.log('CMC_greedy_asc process memory:' + process.memoryUsage().heapTotal / (1024 * 1024));
+console.log(`association_greedy sum of conf: ${sumConf}`);
+console.log(`association_greedy average of conf: ${sumConf/solution.length}`);
 
 const collection_S = solution.map(marginal => {
     return collection.getSubsetOfMarginTable(marginal);
