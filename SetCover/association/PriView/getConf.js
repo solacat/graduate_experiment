@@ -1,7 +1,7 @@
 "use strict";
 
 const conf_map = require('../assoc_arr2.json');
-const marginal_k = require('./data/17-6.json');
+const marginal_k = require('./data/13-7c.json');
 const attr_map = require('../../lib/attributes_map.json');
 const _ = require('lodash');
 const fs = require('fs');
@@ -40,7 +40,7 @@ marginal_k.map(margin=>{
 
 marginConf_Arr = _.sortBy(marginConf_Arr, 'conf');
 
-fs.writeFileSync('./data/17-6_conf.json', JSON.stringify(marginConf_map));
-fs.writeFileSync('./data/17-6_conf_arr.json', JSON.stringify(marginConf_Arr));
+fs.writeFileSync('./data/13-7c_conf.json', JSON.stringify(marginConf_map));
+fs.writeFileSync('./data/13-7c_conf_arr.json', JSON.stringify(marginConf_Arr));
 
 console.log('work done!!');

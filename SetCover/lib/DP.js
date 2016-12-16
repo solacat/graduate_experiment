@@ -19,3 +19,12 @@ exports.DP = function(marginTables, n){
     })
     return margin_w;
 }
+
+exports.Dwork = function(result, lambd){
+    var resultDP = [];
+    result.map(res=>{
+        const _resultDP = res+laplace.getLaplace(lambd);
+        resultDP.push(_resultDP);
+    })
+    return resultDP;
+}

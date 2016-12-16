@@ -3,9 +3,9 @@
 const _ = require('lodash');
 const fs = require('fs');
 const collection = require('./lib/collection');
-const margin10_10 = require('./marginal/10-10.json');
+const margin10_10 = require('./marginal/17-17.json');
 
-const string = 'abcdefghij';
+const string = 'abcdefghijklnmopq';
 const marginTables = collection.getSubsetOfMarginTable(string);
 
 var MBens = {};
@@ -95,6 +95,7 @@ var updateAndAddIn = function(margins){
     while(margin.mben != 1 && margins.length != 0){
         var targe = margin.p;
         S_MBen += margin.mben;
+        console.log(margin);
         solution.push(targe);
         updateSolutionMap(targe, solutionMap);
         margins.splice(margin.index,1);
@@ -214,9 +215,9 @@ for(var key in solutionMap){
 }
 
 const total = Math.pow(2, string.length) - 1;
-
+console.log("The marginal benefit 1 marginal table：" + uncoverSets.length);
 console.log(solution.length);
 console.log(S_MBen);
-console.log(total);
+console.log("The total marginal table：" + total);
 console.log(`coverage: ${solutionCover.length / total}`);
 console.log(`approximation: ${S_MBen / total}`);
